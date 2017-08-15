@@ -88,7 +88,7 @@ Request a transaction.
 
 #### User exceeded Daily Per-User Limit
 ```json
-{"status": "declined", "reason" : "per-User limit exceeded", "currency": "DUT", "limit": 2500, "limitNow": 0}
+{"status": "declined", "reason" : "per-user limit exceeded", "currency": "DUT", "limit": 2500, "limitNow": 0}
 ```
 
 #### User exceeded Daily Total Limit
@@ -122,7 +122,7 @@ Will create a transaction to the source bot marked as a "refund".
 ### Body
 ```json
 {
-    "receipt": "w6154hLZtdEj42f9v9Ap",
+    "receipt": "w6154hLZtdEj42f9v9Ap"
 }
 ```
 
