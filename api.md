@@ -69,7 +69,7 @@ Request a transaction.
     "status": "approved",
     "receipt": "w6154hLZtdEj42f9v9Ap",
     "limitNow": 4999,
-    "resultAmount" 1
+    "resultAmount": 1
 }
 ```
 
