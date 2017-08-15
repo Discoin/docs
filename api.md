@@ -51,7 +51,7 @@ Request a transaction.
 ```json
 {
     "user_id": 155784937511976960,
-    "amount" 1,
+    "amount": 1,
     "exchangeTo": "DUT"
 }
 ```
