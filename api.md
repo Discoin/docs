@@ -12,14 +12,14 @@ Retrieves unprocessed transactions. All retrieved transactions will be marked as
 
 ```json
 [{
-    "user_id": 155784937511976960,
+    "user": 155784937511976960,
     "timestamp": 1502829034,
     "source": "DTS",
     "amount": 1.2,
     "receipt": "jFcwnTy7oH5g7u0r9bXK"
 },
 {
-    "user_id": 155784937511976960,
+    "user": 155784937511976960,
     "timestamp": 1502829034,
     "source": "DUT",
     "amount": 1,
@@ -28,7 +28,7 @@ Retrieves unprocessed transactions. All retrieved transactions will be marked as
 }]
 ```
 * `amount`: How much the user should be given on the destination (your) bot.
-* `user_id`: Integer, the user who requested transaction.
+* `user`: Integer, the user who requested transaction.
 * `receipt`: String, Receipt.
 * `type`: Type of the transaction normally can be omitted but is needed for to mark refunds (future).
 
@@ -50,13 +50,13 @@ Request a transaction.
 ### Body
 ```json
 {
-    "user_id": 155784937511976960,
+    "user": 155784937511976960,
     "amount": 1,
     "exchangeTo": "DUT"
 }
 ```
 
-* `user_id`: Integer, the ID of the user who requested the transaction
+* `user`: Integer, the ID of the user who requested the transaction
 * `amount`: Integer, transaction amount in originated currency
 * `exchangeTo`: String, 3-letter currency code representing the destination currency. Can be lowercased.
 
