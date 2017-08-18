@@ -1,6 +1,30 @@
 # API
 API documentation for Rewritten v1.
 
+## General errors
+
+**400**
+```json
+{"status": "error", "reason": "invalid json"}
+```
+Your json was incorrect.
+
+```json
+{"status": "error", "reason": "bad post"}
+```
+You data/json was correct but was missing/has improperly named varibles.
+
+```json
+{"status": "error", "reason": "invalid post"}
+```
+The page you POST-ed to did not exist.
+
+```json
+{"status": "error", "reason": "invalid get"}
+```
+The page you GET-ted to did not exist.
+
+
 ## GET /transaction
 Retrieves unprocessed transactions. All retrieved transactions will be marked as "Processed".
 
@@ -12,14 +36,14 @@ Retrieves unprocessed transactions. All retrieved transactions will be marked as
 
 ```json
 [{
-    "user": 155784937511976960,
+    "user": "155784937511976960",
     "timestamp": 1502829034,
     "source": "DTS",
     "amount": 1.2,
     "receipt": "jFcwnTy7oH5g7u0r9bXK"
 },
 {
-    "user": 155784937511976960,
+    "user": "155784937511976960",
     "timestamp": 1502829034,
     "source": "DUT",
     "amount": 1,
@@ -50,7 +74,7 @@ Request a transaction.
 ### Body
 ```json
 {
-    "user": 155784937511976960,
+    "user": "155784937511976960",
     "amount": 1,
     "exchangeTo": "DUT"
 }
@@ -88,7 +112,7 @@ Request a transaction.
 
 #### User exceeded Daily Per-User Limit
 ```json
-{"status": "declined", "reason" : "per-user limit exceeded", "currency": "DUT", "limit": 2500, "limitNow": 0}
+{"status": "declined", "reason" : "per-user limit exceeded", "currency": "DUT", "limit": 2500}
 ```
 
 #### User exceeded Daily Total Limit
@@ -104,6 +128,9 @@ Request a transaction.
 ```
 ```json
 {"status": "error", "reason": "invalid destination currency"}
+```
+```json
+{"status": "error", "reason": "amount NaN"}
 ```
 
 **401**
