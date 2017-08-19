@@ -25,7 +25,7 @@ The page you POST-ed to did not exist.
 The page you GET-ted to did not exist.
 
 
-## GET /transaction
+## GET /transaction**s**
 Retrieves unprocessed transactions. All retrieved transactions will be marked as "Processed".
 
 ### Header
