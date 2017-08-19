@@ -26,7 +26,7 @@ To prevent users bypassing daily limits by making multiple accounts, we use your
 No. Discoin only exists during the transaction process and statistics: As a temporary currency, Discoin can only be converted from one currency to another; as a universal *unit* for calculating currency, it is only used for calculating exchange rates.
 
 ## Can I have a transaction record?
-[Yes.](http://discoin.disnodeteam.com/record) You can view all transactions made through Discoin in the current calendar month. For transaction records before the current month, contact any core developers or participants in the [Discoin server](https://discord.gg/t9kUMsv).
+[Yes.](http://discoin.sidetrip.xyz/record) You can view all transactions made through Discoin in the current calendar month. For transaction records before the current month, contact any core developers or participants in the [Discoin server](https://discord.gg/t9kUMsv).
 
 ## Why are there transaction limits?
 While some bots have interesting features, they are vulnerable once the "challenge" in it has disappeared: For example, if you are playing RPG on a bot, one of your goals would be earning money to improve yourself. Discoin is supposed to be a tool helping you to reach that goal, not *a hack reaching the goal directly for you*. Without transaction limit, you will lose the power to continuing playing RPG on the bot.
