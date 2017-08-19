@@ -17,7 +17,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 |DueUtil#3321|`!exchange <Amount> <Currency>`||
 |Maximus#3406 |`mx!discoin transfer <Amount> <Currency>`||
 |Sandwich Delivery#7724|`;exchange <Amount> <Currency>`|Undocumented|
-|SmoreBot#0560|`s.convert` or `s.convert <Amount> <Currency>`||
+|SmoreBot#0560|`s.convert` or `s.convert <Amount> <Currency>`| |
 
 ## Why do I need to give out my email?
 To prevent users bypassing daily limits by making multiple accounts, we use your email address to filter some of them out. **We do not record or store your email address**, as indicated in the source code. [We have a privacy policy, just in case.](https://github.com/austinhuang0131/Discoin/wiki/ToS-&-Privacy#privacy-policy)
