@@ -92,13 +92,6 @@ Retrieves transaction info based off receipt.
 ```
 //todo
 
-### Error Return
-**401**
-
-```json
-{"status": "error", "reason": "unauthorized"}
-```
-
 **404**
 
 ```json
