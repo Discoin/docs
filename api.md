@@ -64,6 +64,47 @@ If no transactions, an empty array (`[]`) will be returned.
 ```json
 {"status": "error", "reason": "unauthorized"}
 ```
+..
+
+## GET /transaction/receipt
+Retrieves transaction info based off receipt.
+
+### Header
+`Authorization`: Your token.
+
+### Successful Return
+**200**
+
+```json
+{
+   "user":"132315148487622656",
+   "timestamp":1503169247,
+   "source":"DTS",
+   "target":"DUT",
+   "receipt":"b1ab27005809f59aba27016e5bf633ee24522fdc",
+   "type":"normal",
+   "processed":false,
+   "process_time":0,
+   "amount_source":11,
+   "amount_discoin":33,
+   "amount_target":16.5
+}
+```
+//todo
+
+### Error Return
+**401**
+
+```json
+{"status": "error", "reason": "unauthorized"}
+```
+
+**404**
+
+```json
+{"status":"error","reason":"transaction not found"}
+```
+
 
 ## POST /transaction
 Request a transaction.
