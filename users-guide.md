@@ -12,11 +12,8 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 
 |Bot Name|Command|Note|
 |-|-|-|
-|Cyclone#5751|`cy!$ exchange <Amount> <Currency>`||
 |DiscordTel#0757|`>convert <Amount> <Currency>`||
 |DueUtil#3321|`!exchange <Amount> <Currency>`||
-|Maximus#3406 |`mx!discoin transfer <Amount> <Currency>`||
-|Sandwich Delivery#7724|`;exchange <Amount> <Currency>`|Undocumented|
 |SmoreBot#0560|`s.convert` or `s.convert <Amount> <Currency>`| |
 
 ## Why do I need to give out my email?
