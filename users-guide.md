@@ -23,7 +23,7 @@ To prevent users bypassing daily limits by making multiple accounts, we use your
 No. Discoin only exists during the transaction process and statistics: As a temporary currency, Discoin can only be converted from one currency to another; as a universal *unit* for calculating currency, it is only used for calculating exchange rates.
 
 ## Can I have a transaction record?
-[Yes.](http://discoin.sidetrip.xyz/record) You can view all transactions made through Discoin in the current calendar month. For transaction records before the current month, contact any core developers or participants in the [Discoin server](https://discord.gg/t9kUMsv).
+[Yes.](http://discoin.sidetrip.xyz/record) You can view all transactions made through Discoin in the current calendar month. For transaction records before the current month, contact any core developers or participants in the [Discoin server](https://discord.gg/NExXSDH).
 
 ## Why are there transaction limits?
 While some bots have interesting features, they are vulnerable once the "challenge" in it has disappeared: For example, if you are playing RPG on a bot, one of your goals would be earning money to improve yourself. Discoin is supposed to be a tool helping you to reach that goal, not *a hack reaching the goal directly for you*. Without transaction limit, you will lose the power to continuing playing RPG on the bot.
@@ -42,4 +42,4 @@ We decline the transaction by sending a `[Declined]` message back to the bot.
 ## I did not receive my payment!
 1. Check [the Transaction Record](http://discoin.sidetrip.xyz/record). If it says "Unprocessed" on "Reception Date", the receiving bot hasn't pick up its unprocessed transactions yet - By standard, bots should pick up its transactions on a 5-minute interval - so just wait patiently.
 2. If it has been more than 5 minutes and the status remains "Unprocessed", contact the developer(s) of the receiving bot. Alternatively, type other commands of the bot to ensure it is working properly.
-3. If a timestamp is present on "Reception Date", please go to [our support server](https://discord.gg/t9kUMsv) and submit a dispute.
+3. If a timestamp is present on "Reception Date", please go to [our support server](https://discord.gg/NExXSDH) and submit a dispute.
