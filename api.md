@@ -1,3 +1,9 @@
+# Libraries
+Plain lazy? Use our pre-made libraries!
+
+* [Node.js](https://www.npmjs.com/package/discoin)
+* [Python](https://pypi.python.org/pypi/discoin)
+
 # API
 
 API documentation for Rewritten v1.
