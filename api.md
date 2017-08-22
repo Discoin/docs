@@ -12,37 +12,47 @@ API documentation for Rewritten v1.
 
 **400**
 
+
 ```json
 {"status": "error", "reason": "invalid json"}
 ```
-
 Your json was incorrect.
+___
+
+```json
+{"status": "error", "reason": "invalid types"}
+```
+The types in your post were not correct.
+For example you posted the user id as a long/int not a string.
+___
+
 
 ```json
 {"status": "error", "reason": "bad post"}
 ```
-
 You data/json was correct but was missing/has improperly named varibles.
+___
+
 
 ```json
 {"status": "error", "reason": "invalid post"}
 ```
-
 The page you POST-ed to did not exist.
+___
 
 ```json
 {"status": "error", "reason": "invalid get"}
 ```
-
 The page you GET-ted to did not exist.
+___
 
 **401**
 
 ```json
 {"status": "error", "reason": "unauthorized"}
 ```
-
 Your token is invalid.
+
 
 ## GET /transaction**s**
 
@@ -62,14 +72,14 @@ Retrieves unprocessed transactions. All retrieved transactions will be marked as
     "timestamp": 1502829034,
     "source": "DTS",
     "amount": 1.2,
-    "receipt": "jFcwnTy7oH5g7u0r9bXK"
+    "receipt": "e7eed14463d00e05eca7075bbc89aa7be640e494"
 },
 {
     "user": "155784937511976960",
     "timestamp": 1502829034,
     "source": "DUT",
     "amount": 1,
-    "receipt": "w6154hLZtdEj42f9v9Ap",
+    "receipt": "f951dae48f7ef5670270717fe57af9eb41b889f0",
     "type": "refund"
 }]
 ```
@@ -101,8 +111,8 @@ Retrieves transaction info based off receipt.
 {
    "user":"132315148487622656",
    "timestamp":1503428678,
-   "source":"BOT",
-   "target":"BOT",
+   "source":"DUT",
+   "target":"DTS",
    "receipt":"3013edf87bf5a369621fd6065b1454ea7ba71464",
    "amountSource":10,
    "amountDiscoin":120,
@@ -151,7 +161,7 @@ Request a transaction.
 ```json
 {
     "status": "approved",
-    "receipt": "w6154hLZtdEj42f9v9Ap",
+    "receipt": "dca311df716ad4a6b734e3b92f0b58d797abd98c",
     "limitNow": 4999,
     "resultAmount": 1
 }
@@ -214,7 +224,7 @@ Will create a transaction to the source bot marked as a "refund".
 
 ```json
 {
-    "receipt": "w6154hLZtdEj42f9v9Ap"
+    "receipt": "e7eed14463d00e05eca7075bbc89aa7be640e494"
 }
 ```
 
@@ -229,15 +239,32 @@ Will create a transaction to the source bot marked as a "refund".
 * `refundAmount`: This should be the amount the user attempted to exchange to your bot \(at the source bot\).
   It will be in the currency of the source bot.
 
-### Rejection Return
-
-#### Transaction does not exist
+### Fails Return
 
 **400**
+```json
+{"status": "failed", "reason": "transaction must be to your bot"}
+```
+
+```json
+{"status": "failed", "reason": "cannot refund a refund"}
+```
+
+```json
+{"status": "failed", "reason": "transaction already reversed"}
+```
+
+```json
+{"status": "failed", "reason": "invalid receipt"}
+```
+
+**404**
 
 ```json
 {"status": "failed", "reason": "transaction not found"}
 ```
+
+
 
 
 
