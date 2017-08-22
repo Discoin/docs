@@ -14,6 +14,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 |-|-|-|
 |DiscordTel#0757|`>convert <Amount> <Currency>`||
 |DueUtil#3321|`!exchange <Amount> <Currency>`||
+|Elite Looter#8634|`;exchange <Amount> <Currency>`|Info: `;discoin`|
 |SmoreBot#0560|`s.convert` or `s.convert <Amount> <Currency>`| |
 
 ## Why do I need to give out my email?
