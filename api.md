@@ -1,37 +1,53 @@
 # API
+
 API documentation for Rewritten v1.
 
 ## General errors
 
 **400**
+
 ```json
 {"status": "error", "reason": "invalid json"}
 ```
+
 Your json was incorrect.
 
 ```json
 {"status": "error", "reason": "bad post"}
 ```
+
 You data/json was correct but was missing/has improperly named varibles.
 
 ```json
 {"status": "error", "reason": "invalid post"}
 ```
+
 The page you POST-ed to did not exist.
 
 ```json
 {"status": "error", "reason": "invalid get"}
 ```
+
 The page you GET-ted to did not exist.
 
+**401**
+
+```json
+{"status": "error", "reason": "unauthorized"}
+```
+
+Your token is invalid.
 
 ## GET /transaction**s**
+
 Retrieves unprocessed transactions. All retrieved transactions will be marked as "Processed".
 
 ### Header
+
 `Authorization`: Your token.
 
 ### Successful Return
+
 **200** An array of transactions. Example:
 
 ```json
@@ -51,45 +67,47 @@ Retrieves unprocessed transactions. All retrieved transactions will be marked as
     "type": "refund"
 }]
 ```
-* `amount`: How much the user should be given on the destination (your) bot.
+
+* `amount`: How much the user should be given on the destination \(your\) bot.
 * `user`: Integer, the user who requested transaction.
 * `receipt`: String, Receipt.
-* `type`: Type of the transaction normally can be omitted but is needed for to mark refunds (future).
+* `type`: Type of the transaction normally can be omitted but is needed for to mark refunds \(future\).
 
-If no transactions, an empty array (`[]`) will be returned.
+If no transactions, an empty array \(`[]`\) will be returned.
 
-### Error Return
-**401**
+## GET /transaction/:receipt
 
-```json
-{"status": "error", "reason": "unauthorized"}
-```
-..
-
-## GET /transaction/receipt
 Retrieves transaction info based off receipt.
 
+### Params
+
+`:receipt`: Your receipt ID.
+
 ### Header
+
 `Authorization`: Your token.
 
 ### Successful Return
+
 **200**
 
 ```json
 {
    "user":"132315148487622656",
-   "timestamp":1503169247,
-   "source":"DTS",
-   "target":"DUT",
-   "receipt":"b1ab27005809f59aba27016e5bf633ee24522fdc",
-   "type":"normal",
-   "processed":false,
-   "process_time":0,
-   "amount_source":11,
-   "amount_discoin":33,
-   "amount_target":16.5
+   "timestamp":1503428678,
+   "source":"BOT",
+   "target":"BOT",
+   "receipt":"3013edf87bf5a369621fd6065b1454ea7ba71464",
+   "amountSource":10,
+   "amountDiscoin":120,
+   "amountTarget":10,
+   "processed":true,
+   "processTime":1503429255,
+   "reversed":true,
+   "type":"normal"
 }
 ```
+
 //todo
 
 **404**
@@ -98,14 +116,16 @@ Retrieves transaction info based off receipt.
 {"status":"error","reason":"transaction not found"}
 ```
 
-
 ## POST /transaction
+
 Request a transaction.
 
 ### Header
+
 `Authorization`: Your token.
 
 ### Body
+
 ```json
 {
     "user": "155784937511976960",
@@ -140,16 +160,19 @@ Request a transaction.
 **403**
 
 #### User is not verified
+
 ```json
 {"status": "declined", "reason": "verify required"}
 ```
 
 #### User exceeded Daily Per-User Limit
+
 ```json
 {"status": "declined", "reason" : "per-user limit exceeded", "currency": "DUT", "limit": 2500}
 ```
 
 #### User exceeded Daily Total Limit
+
 ```json
 {"status": "declined", "reason" : "total limit exceeded", "currency": "DUT", "limit": 100000}
 ```
@@ -157,30 +180,32 @@ Request a transaction.
 ### Error Return
 
 **400**
+
 ```json
 {"status": "error", "reason": "invalid amount"}
 ```
+
 ```json
 {"status": "error", "reason": "invalid destination currency"}
 ```
+
 ```json
 {"status": "error", "reason": "amount NaN"}
 ```
 
-**401**
-```json
-{"status": "error", "reason": "unauthorized"}
-```
-
 ## POST /transaction/reverse
+
 ### Future feature.
-Reject a transaction sent to your bot and allow the the source bot to refund the user.
+
+Reject a transaction sent to your bot and allow the the source bot to refund the user.  
 Will create a transaction to the source bot marked as a "refund".
 
 ### Header
+
 `Authorization`: Your token.
 
 ### Body
+
 ```json
 {
     "receipt": "w6154hLZtdEj42f9v9Ap"
@@ -188,18 +213,25 @@ Will create a transaction to the source bot marked as a "refund".
 ```
 
 ### Successful Return
+
 **200**
+
 ```json
 {"status": "ok", "refundAmount": 100}
 ```
 
-* `refundAmount`: This should be the amount the user attempted to exchange to your bot (at the source bot).
-It will be in the currency of the source bot.
+* `refundAmount`: This should be the amount the user attempted to exchange to your bot \(at the source bot\).
+  It will be in the currency of the source bot.
 
 ### Rejection Return
 
 #### Transaction does not exist
+
 **400**
+
 ```json
 {"status": "failed", "reason": "transaction not found"}
 ```
+
+
+
