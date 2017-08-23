@@ -209,9 +209,38 @@ Request a transaction.
 {"status": "error", "reason": "amount NaN"}
 ```
 
-## POST /transaction/reverse
+## GET /rates.json
+No authorization needed.
 
-### Future feature.
+### Return
+
+```json
+[
+   {
+      "DueUtil":{
+         "currencyCode":"DUT",
+         "toDiscoin":1.5,
+         "fromDiscoin":0.3
+      }
+   },
+   {
+      "DiscordTel":{
+         "currencyCode":"DTS",
+         "toDiscoin":1,
+         "fromDiscoin":1
+      }
+   },
+   {
+      "PyButt":{
+         "currencyCode":"PYB",
+         "toDiscoin":1,
+         "fromDiscoin":1
+      }
+   }
+]
+```
+
+## POST /transaction/reverse
 
 Reject a transaction sent to your bot and allow the the source bot to refund the user.  
 Will create a transaction to the source bot marked as a "refund".
