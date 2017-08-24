@@ -270,7 +270,7 @@ Will create a transaction to the source bot marked as a "refund".
 
 ### Fails Return
 
-```
+
 **400**
 ```json
 {"status": "failed", "reason": "cannot refund a refund"}
@@ -287,6 +287,7 @@ Will create a transaction to the source bot marked as a "refund".
 
 ```json
 {"status": "failed", "reason": "transaction must be to your bot"}
+```
 **404**
 
 ```json
