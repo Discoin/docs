@@ -1,6 +1,7 @@
 # Libraries
 Plain lazy? Use our pre-made libraries!
 
+* [Java](https://github.com/Godson777/Discoin4J)
 * [Node.js](https://www.npmjs.com/package/discoin)
 * [Python](https://pypi.python.org/pypi/discoin)
 
