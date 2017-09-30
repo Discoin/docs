@@ -8,16 +8,15 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 ### Commands List
 * `<Currency>` means 3-letter currency codes listed [here](http://discoin.sidetrip.xyz/rates).
 * Currency exchange rates are listed [here](http://discoin.sidetrip.xyz/rates), also [here](#current-rates)
-* For bot invites/supports, click [here](/austinhuang0131/Discoin/wiki/List-of-Participants).
 
 |Bot Name|Command|Note|
 |-|-|-|
-|DiscordTel#0757|`>convert <Amount> <Currency>`||
-|DueUtil#3321|`!exchange <Amount> <Currency>`||
-|Elite Looter#8634|`;exchange <Amount> <Currency>`|Info: `;discoin`|
-|Pollus#9069|`+exchange <Amount> <Currency>`|`p.exchange` also|
-|PyButt#6485|`py!exchange <Amount> <Currency>`||
-|SmoreBot#0560|`s.convert <Amount> <Currency>`|`s.transfer` also|
+|[DiscordTel#0757](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
+|[DueUtil#3321](http://dueutil.tech)|`!exchange <Amount> <Currency>`||
+|[Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946)|`;exchange <Amount> <Currency>`|Info: `;discoin`|
+|[Pollus#9069](http://beta.pollux.fun)|`+exchange <Amount> <Currency>`|`p.exchange` also|
+|[PyButt#6485](https://pybutt.josephbanks.me/)|`py!exchange <Amount> <Currency>`||
+|[SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)|`s.convert <Amount> <Currency>`|`s.transfer` also|
 
 ## Why do I need to give out my email?
 To prevent users bypassing daily limits by making multiple accounts, we use your email address to filter some of them out. **We do not record or store your email address**, as indicated in the source code. [We have a privacy policy, just in case.](https://github.com/austinhuang0131/Discoin/wiki/ToS-&-Privacy#privacy-policy)
