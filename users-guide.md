@@ -14,7 +14,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 |[DiscordTel#0757](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
 |[DueUtil#3321](http://dueutil.tech)|`!exchange <Amount> <Currency>`||
 |[Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946)|`;exchange <Amount> <Currency>`|Info: `;discoin`|
-|[Pollus#9069](http://beta.pollux.fun)|`+exchange <Amount> <Currency>`|`p.exchange` also|
+|[Pollus#9069](http://beta.pollux.fun)|`+exchange <Amount> <Currency>`|`p!exchange` also|
 |[PyButt#6485](https://pybutt.josephbanks.me/)|`py!exchange <Amount> <Currency>`||
 |[SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)|`s.convert <Amount> <Currency>`|`s.transfer` also|
 
