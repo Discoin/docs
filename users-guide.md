@@ -15,7 +15,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 |[DiscordTel#0757](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
 |[DueUtil#3321](http://dueutil.tech)|`!exchange <Amount> <Currency>`||
 |[Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946)|`;exchange <Amount> <Currency>`|Info: `;discoin`|
-|[Pollus#9069](http://beta.pollux.fun)|`+exchange <Amount> <Currency>`|`p!exchange` also|
+|[Pollux#9069](http://beta.pollux.fun)|`+exchange <Amount> <Currency>`|`p!exchange` also|
 |[PyButt#6485](https://pybutt.josephbanks.me/)|`py!exchange <Amount> <Currency>`||
 |[SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)|`s.convert <Amount> <Currency>`|`s.transfer` also|
 
@@ -54,6 +54,6 @@ We'll decline the transaction.
 |DiscordTel#0757|~Credits (DTS)|1|1||
 |DueUtil#3321|~Tokens (DUT)|0.2|≈0.67|Only accepts integer as result amount, or refund|
 |Elite Looter#8634|~Coins (ELT)|≈0.59|≈0.59||
-|Pollus#9069|Rubines (RBN)|1.25|1.25||
+|Pollux#9069|Rubines (RBN)|1.25|1.25||
 |PyButt#6485|PyBucks (PYB)|1|1||
 |SmoreBot#0560|SmoreCash (SBT)|1|1||
