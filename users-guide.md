@@ -11,6 +11,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 
 |Bot Name|Command|Note|
 |-|-|-|
+|[DerpBot#2015](https://discordbots.org/bot/339817292659425281)|`ddiscoin`||
 |[DiscordTel#0757](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
 |[DueUtil#3321](http://dueutil.tech)|`!exchange <Amount> <Currency>`||
 |[Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946)|`;exchange <Amount> <Currency>`|Info: `;discoin`|
@@ -49,6 +50,7 @@ We'll decline the transaction.
 ## Current Rates
 |Bot Name|Currency Name|From 1 Discoin|To 1 Discoin|Note|
 |-|-|-|-|-|
+|DerpBot#2015|Derpcoin (DCN)|1|2||
 |DiscordTel#0757|~Credits (DTS)|1|1||
 |DueUtil#3321|~Tokens (DUT)|0.2|≈0.67|Only accepts integer as result amount, or refund|
 |Elite Looter#8634|~Coins (ELT)|≈0.59|≈0.59||
