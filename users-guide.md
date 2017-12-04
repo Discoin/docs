@@ -12,7 +12,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 |Bot Name|Command|Note|
 |-|-|-|
 |[DerpBot#2015](https://discordbots.org/bot/339817292659425281)|`ddiscoin`||
-|[DiscordTel#0757](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
+|[DiscordTel#6675](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
 |[DueUtil#3321](http://dueutil.tech)|`!exchange <Amount> <Currency>`||
 |[Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946)|`;exchange <Amount> <Currency>`|Info: `;discoin`|
 |[Pollux#9069](http://beta.pollux.fun)|`+exchange <Amount> <Currency>`|`p!exchange` also|
