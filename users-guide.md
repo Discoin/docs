@@ -13,9 +13,9 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 |-|-|-|
 |[DerpBot#2015](https://discordbots.org/bot/339817292659425281)|`ddiscoin`||
 |[DiscordTel#6675](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
-|[DueUtil#3321](http://dueutil.tech)|`!exchange <Amount> <Currency>`||
+|DueUtil|*Adjusting*|Sjustein (of Elite Looter) decided to rehost it after its shutdown. Not yet released.|
 |[Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946)|`;exchange <Amount> <Currency>`|Info: `;discoin`|
-|[Pollux#9069](http://beta.pollux.fun)|`+exchange <Amount> <Currency>`|`p!exchange` also|
+|[Pollux#9069](http://pollux.fun)|`+exchange <Amount> <Currency>`|`p!exchange` also. Destination tax applies.|
 |[PyButt#6485](https://pybutt.josephbanks.me/)|`py!exchange <Amount> <Currency>`||
 |[SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)|`s.convert <Amount> <Currency>`|`s.transfer` also|
 
@@ -52,8 +52,8 @@ We'll decline the transaction.
 |-|-|-|-|-|
 |DerpBot#2015|Derpcoin (DCN)|1|2||
 |DiscordTel#0757|~Credits (DTS)|1|1||
-|DueUtil#3321|~Tokens (DUT)|0.2|≈0.67|Only accepts integer as result amount, or refund|
+|DueUtil|~Tokens (DUT)|0.2|≈0.67|Only accepts integer as result amount, or refund|
 |Elite Looter#8634|~Coins (ELT)|≈0.59|≈0.59||
-|Pollux#9069|Rubines (RBN)|1.25|1.25||
+|Pollux#9069|Rubines (RBN)|1.25|0.95|After tax|
 |PyButt#6485|PyBucks (PYB)|1|1||
 |SmoreBot#0560|SmoreCash (SBT)|1|1||
