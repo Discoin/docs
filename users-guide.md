@@ -1,5 +1,4 @@
 # Discoin Guide for Users
-
 This guide contains frequently asked questions during Discoin transactions.
 
 ## How can I exchange currency?
@@ -17,7 +16,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 |[SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)|`s.convert <Amount> <Currency>`|`s.transfer` also|
 
 ## Why do I need to give out my email?
-To prevent users bypassing daily limits by making multiple accounts, we use your email address to filter some of them out. **We do not record or store your email address**, as indicated in the source code. [We have a privacy policy, just in case.](https://github.com/austinhuang0131/Discoin/wiki/ToS-&-Privacy#privacy-policy)
+To prevent users bypassing daily limits by making multiple accounts, we use your email address to filter some of them out. **We do not record or store your email address**, [as indicated in the source code](https://github.com/MacDue/DiscoinRewrite/blob/master/discoin/users.php#L147).
 
 ## Can I spend Discoins?
 No. Discoin only exists during the transaction process and statistics: As a temporary currency, Discoin can only be converted from one currency to another; as a universal *unit* for calculating currency, it is only used for calculating exchange rates.
@@ -26,7 +25,7 @@ No. Discoin only exists during the transaction process and statistics: As a temp
 [Yes.](http://discoin.sidetrip.xyz/record)
 
 ## Why are there transaction limits?
-While some bots have interesting features, they are vulnerable once the "challenge" in it has disappeared: For example, if you are playing RPG on a bot, one of your goals would be earning money to improve yourself. Discoin is supposed to be a tool helping you to reach that goal, not *a hack reaching the goal directly for you*. Without transaction limit, you will lose the power to continuing playing RPG on the bot.
+While some bots have interesting features, they are vulnerable once the "challenge" in it has disappeared: For example, if you are playing RPG on a bot, one of your goals would be earning money to improve yourself. Discoin is supposed to be a tool helping you to reach that goal, not *a hack reaching the goal directly for you*. Without transaction limit, you will lose the power to continuing playing RPG on the bot. Also, a bot's currency system is vulnerble to inflations.
 
 For this reason, we allow bot owners to implant transaction limits for their currencies. There are two types of limits:
 
