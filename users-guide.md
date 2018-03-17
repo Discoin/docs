@@ -11,9 +11,10 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 
 |Bot Name|Command|Note|
 |-|-|-|
-|[DerpBot#2015](https://discordbots.org/bot/339817292659425281)|`ddiscoin`||
+<!--|[DerpBot#2015](https://discordbots.org/bot/339817292659425281)|`ddiscoin`||-->
 |[DiscordTel#6675](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
 |[Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946)|`;exchange <Amount> <Currency>`|Info: `;discoin`|
+|[KekBot#2918](https://discordbots.org/bot/213151748855037953)|`$shop convert`||
 |[Pollux#9069](http://pollux.fun)|`+exchange <Amount> <Currency>`|`p!exchange` also. Destination tax applies.|
 |[SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)|`s.convert <Amount> <Currency>`|`s.transfer` also|
 
@@ -48,8 +49,9 @@ We'll decline the transaction.
 ## Current Rates
 |Bot Name|Currency Name|From 1 Discoin|To 1 Discoin|Note|
 |-|-|-|-|-|
-|DerpBot#2015|Derpcoin (DCN)|1|2||
+<!--|DerpBot#2015|Derpcoin (DCN)|1|2||-->
 |DiscordTel#0757|~Credits (DTS)|1|1||
 |Elite Looter#8634|~Coins (ELT)|≈0.59|≈0.59||
+|KekBot#2918|Topkeks (KEK)|0.33|3||
 |Pollux#9069|Rubines (RBN)|1.25|0.95|After tax|
 |SmoreBot#0560|SmoreCash (SBT)|1|1||
