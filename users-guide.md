@@ -6,8 +6,7 @@ This guide contains frequently asked questions during Discoin transactions.
 Before you can exchange currency, you must [verify yourself](http://discoin.sidetrip.xyz/verify). After verification, refer to the table below.
 
 ### Commands List
-* `<Currency>` means 3-letter currency codes listed [here](http://discoin.sidetrip.xyz/rates).
-* Currency exchange rates are listed [here](http://discoin.sidetrip.xyz/rates), also [here](#current-rates)
+* `<Currency>` means 3-letter currency codes listed [here](http://discoin.sidetrip.xyz/rates). Exchange rates are listed there too.
 
 |Bot Name|Command|Note|
 |-|-|-|
@@ -44,12 +43,3 @@ We'll decline the transaction.
 1. Check [the Transaction Record](http://discoin.sidetrip.xyz/record). If it says "Unprocessed" on "Reception Date", the receiving bot hasn't pick up its unprocessed transactions yet - By standard, bots should pick up its transactions on a 5-minute interval - so just wait patiently.
 2. If it has been more than 5 minutes and the status remains "Unprocessed", contact the developer(s) of the receiving bot. Alternatively, type other commands of the bot to ensure it is working properly.
 3. If a timestamp is present on "Reception Date", please go to [our support server](https://discord.gg/NExXSDH) and submit a dispute.
-
-## Current Rates
-|Bot Name|Currency Name|From 1 Discoin|To 1 Discoin|Note|
-|-|-|-|-|-|
-|DiscordTel#0757|~Credits (DTS)|1|1||
-|Elite Looter#8634|~Coins (ELT)|≈0.59|≈0.59||
-|KekBot#2918|Topkeks (KEK)|0.33|3||
-|Pollux#9069|Rubines (RBN)|1.25|0.95|After tax|
-|SmoreBot#0560|SmoreCash (SBT)|1|1||
