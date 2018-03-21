@@ -9,6 +9,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 
 |Bot Name|Command|Note|
 |-|-|-|
+|[Dice#6134](https://github.com/PizzaFox/dice)|Yet to be written||
 |[DiscordTel#6675](http://discordtel.rtfd.io)|`>convert <Amount> <Currency>`||
 |[Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946)|`;exchange <Amount> <Currency>`|Info: `;discoin`|
 |[KekBot#2918](https://discordbots.org/bot/213151748855037953)|`$shop convert`||
