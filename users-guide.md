@@ -10,14 +10,14 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 
 * `<Currency>` means 3-letter currency codes listed [here](http://discoin.sidetrip.xyz/rates). Exchange rates are listed there too.
 
-| Bot Name                                                             | Command                         | Note                                        |
-|----------------------------------------------------------------------|---------------------------------|---------------------------------------------|
-| [Dice#6134](https://github.com/PizzaFox/dice)                        | Yet to be written               |                                             |
-| [DiscordTel#6675](http://discordtel.rtfd.io)                         | `>convert <Amount> <Currency>`  |                                             |
-| [Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946) | `;exchange <Amount> <Currency>` | Info: `;discoin`                            |
-| [KekBot#2918](https://discordbots.org/bot/213151748855037953)        | `$shop convert`                 |                                             |
-| [Pollux#9069](http://pollux.fun)                                     | `+exchange <Amount> <Currency>` | `p!exchange` also. Destination tax applies. |
-| [SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)     | `s.convert <Amount> <Currency>` | `s.transfer` also                           |
+| Bot Name                                                             | Command                              | Note                                                                        |
+|----------------------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------|
+| [Dice#6134](https://dicediscord.netlify.com/)                        | `$$convert-oats <Amount> <Currency>` | [Discoin commands and information](https://dicediscord.netlify.com/discoin) |
+| [DiscordTel#6675](http://discordtel.rtfd.io)                         | `>convert <Amount> <Currency>`       |                                                                             |
+| [Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946) | `;exchange <Amount> <Currency>`      | Info: `;discoin`                                                            |
+| [KekBot#2918](https://discordbots.org/bot/213151748855037953)        | `$shop convert`                      |                                                                             |
+| [Pollux#9069](http://pollux.fun)                                     | `+exchange <Amount> <Currency>`      | `p!exchange` also. Destination tax applies.                                 |
+| [SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)     | `s.convert <Amount> <Currency>`      | `s.transfer` also                                                           |
 
 ## Why do I need to give out my email?
 
