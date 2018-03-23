@@ -12,11 +12,11 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 
 | Bot Name                                                             | Command                              | Note                                                                        |
 |----------------------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------|
-| [Dice#6134](https://dicediscord.netlify.com/)                        | `$$convert-oats <Amount> <Currency>` | [Discoin commands and information](https://dicediscord.netlify.com/discoin) |
+| [Dice#6134](https://dicediscord.netlify.com/)                        | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dicediscord.netlify.com/discoin) |
 | [DiscordTel#6675](http://discordtel.rtfd.io)                         | `>convert <Amount> <Currency>`       |                                                                             |
 | [Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946) | `;exchange <Amount> <Currency>`      | Info: `;discoin`                                                            |
 | [KekBot#2918](https://discordbots.org/bot/213151748855037953)        | `$shop convert`                      |                                                                             |
-| [Pollux#9069](http://pollux.fun)                                     | `+exchange <Amount> <Currency>`      | `p!exchange` also. Destination tax applies.                                 |
+| [Pollux#9069](http://pollux.fun)                                     | `+exchange <Amount> <Currency>`      | `p!exchange` also                             |
 | [SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)     | `s.convert <Amount> <Currency>`      | `s.transfer` also                                                           |
 
 ## Why do I need to give out my email?
@@ -54,3 +54,16 @@ We'll decline the transaction.
 1. Check [the Transaction Record](http://discoin.sidetrip.xyz/record). If it says "Unprocessed" on "Reception Date", the receiving bot hasn't pick up its unprocessed transactions yet - By standard, bots should pick up its transactions on a 5-minute interval - so just wait patiently.
 2. If it has been more than 5 minutes and the status remains "Unprocessed", contact the developer(s) of the receiving bot. Alternatively, type other commands of the bot to ensure it is working properly.
 3. If a timestamp is present on "Reception Date", please go to [our support server](https://discord.gg/NExXSDH) and submit a dispute.
+
+## Suggested uses of each currency
+
+Here's a table on the earning and spending mechanisms of each bot.
+
+| Bot (Currency Code) | How to Earn | How to Spend |
+| ------------------- | ----------- | ------------ |
+| Dice (OAT) | `$$daily` and `$$dice-game` if won | Wager in `$$dice-game` |
+| DiscordTel (DTS) | `>daily` and `>lottery` if won | Renewing your DiscordTel service as well as `>lottery` |
+| Elite Looter (ELT) | Opening crates which can be gained by chatting | Purchase upgrades to get more crates |
+| KekBot (KEK) | `$daily` and `$lottery` if won | `$shop` for profile card decorations, as well as `$slot` and `$lottery` |
+| Pollux (RBN) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop` for crafting materials and profile decorations |
+| SmoreBot (SBT) | `s.daily` | Currently none |
