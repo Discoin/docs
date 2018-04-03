@@ -9,6 +9,8 @@ Plain lazy? Use our pre-made libraries!
 
 API documentation for Rewritten v1.
 
+All endpoints start with `http://discoin.sidetrip.xyz`. **Do NOT use HTTPS** or your authorization token will not be carried over.
+
 ## General errors
 
 **400**
