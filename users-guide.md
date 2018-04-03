@@ -17,7 +17,6 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 | [Elite Looter#8634](https://bots.discord.pw/bots/303799630532050946) | `;exchange <Amount> <Currency>`      | Info: `;discoin`                                                            |
 | [KekBot#2918](https://discordbots.org/bot/213151748855037953)        | `$shop convert`                      |                                                                             |
 | [Pollux#9069](http://pollux.fun)                                     | `+exchange <Amount> <Currency>`      | `p!exchange` also                             |
-| [SmoreBot#0560](https://bots.discord.pw/bots/290228059599142913)     | `s.convert <Amount> <Currency>`      | `s.transfer` also                                                           |
 
 ## Why do I need to give out my email?
 
@@ -62,8 +61,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 | Bot (Currency Code) | How to Earn | How to Spend |
 | ------------------- | ----------- | ------------ |
 | Dice (OAT) | `$$daily` and `$$dice-game` if won | Wager in `$$dice-game` |
-| DiscordTel (DTS) | `>daily` and `>lottery` if won | Renewing your DiscordTel service as well as `>lottery` |
-| Elite Looter (ELT) | Opening crates which can be gained by chatting | Purchase upgrades to get more crates |
-| KekBot (KEK) | `$daily` and `$lottery` if won | `$shop` for profile card decorations, as well as `$slot` and `$lottery` |
-| Pollux (RBN) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop` for crafting materials and profile decorations |
-| SmoreBot (SBT) | `s.daily` | Currently none |
+| DiscordTel (DTS) | `>daily` and `>lottery` if won | [Renewing your DiscordTel service](https://discordtel.austinhuang.me/en/latest/Payment/) as well as `>lottery` |
+| Elite Looter (ELT) | Opening crates which can be gained by chatting and also `;games` | `;shop`ing upgrades as well as playing `;games` to get more crates |
+| KekBot (KEK) | `$daily` and `$lottery` if won | `$shop`ing profile card decorations as well as playing `$slot` and `$lottery` |
+| Pollux (RBN) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop`ing crafting materials and profile decorations |
