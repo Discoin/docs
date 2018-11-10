@@ -15,12 +15,15 @@ All endpoints start with `http://discoin.sidetrip.xyz`. **Do NOT use HTTPS** or 
 
 **400**
 
-
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+Your json was incorrect.
+{% endapi-method-response-example-description %}
 ```json
 {"status": "error", "reason": "invalid json"}
 ```
-Your json was incorrect.
-___
+{% endapi-method-response-example %}
+
 
 ```json
 {"status": "error", "reason": "invalid types"}
