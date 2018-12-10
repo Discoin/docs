@@ -2,9 +2,9 @@
 
 This guide contains frequently asked questions during Discoin transactions.
 
-## WARNING
-
+{% hint style="warning" %}
 **If you farm currencies,** specifically, if you operate a server exclusively for earning currencies for Discoin-participating bots, or we've found you intentionally spamming each bot to earn currencies, we'll notify all participating bot owners. In other words, **you are punished.** In Pollux, you risk your profile being wiped out. In other bots, you also risk you or your guild being blacklisted. We have the ability to track down each server and user's activity, so please don't try us.
+{% endhint %}
 
 ## How can I exchange currency?
 
@@ -16,7 +16,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 
 | Bot Name | Command | Note |
 | :--- | :--- | :--- |
-| [Dice\#6134](https://dicediscord.netlify.com/) | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dicediscord.netlify.com/discoin) |
+| [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dice.js.org) |
 | [DiscordTel\#6675](http://discordtel.rtfd.io) | `>convert <Amount> <Currency>` |  |
 | [Elite Looter\#8634](https://bots.discord.pw/bots/303799630532050946) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
