@@ -1,17 +1,20 @@
-# Libraries
+# API Documentation
+
+## Libraries
+
 Plain lazy? Use our pre-made libraries!
 
 * [Java](https://github.com/Godson777/Discoin4J)
 * [Node.js](https://www.npmjs.com/package/discoin)
 * [Python](https://pypi.python.org/pypi/discoin)
 
-# API
+## API
 
 API documentation for Rewritten v1.
 
 All endpoints start with `http://discoin.sidetrip.xyz`. **Do NOT use HTTPS** or your authorization token will not be carried over.
 
-## General errors
+### General errors
 
 **400**
 
@@ -19,60 +22,57 @@ All endpoints start with `http://discoin.sidetrip.xyz`. **Do NOT use HTTPS** or 
 {% api-method-response-example-description %}
 Your json was incorrect.
 {% endapi-method-response-example-description %}
-```json
+
+```javascript
 {"status": "error", "reason": "invalid json"}
 ```
 {% endapi-method-response-example %}
 
-
-```json
+```javascript
 {"status": "error", "reason": "invalid types"}
 ```
-The types in your post were not correct.
-For example you posted the user id as a long/int not a string.
-___
 
+The types in your post were not correct. For example you posted the user id as a long/int not a string.
 
-```json
+```javascript
 {"status": "error", "reason": "bad post"}
 ```
+
 You data/json was correct but was missing/has improperly named varibles.
-___
 
-
-```json
+```javascript
 {"status": "error", "reason": "invalid post"}
 ```
-The page you POST-ed to did not exist.
-___
 
-```json
+The page you POST-ed to did not exist.
+
+```javascript
 {"status": "error", "reason": "invalid get"}
 ```
+
 The page you GET-ted to did not exist.
-___
 
 **401**
 
-```json
+```javascript
 {"status": "error", "reason": "unauthorized"}
 ```
+
 Your token is invalid.
 
-
-## GET /transaction**s**
+### GET /transaction**s**
 
 Retrieves unprocessed transactions. All retrieved transactions will be marked as "Processed".
 
-### Header
+#### Header
 
 `Authorization`: Your token.
 
-### Successful Return
+#### Successful Return
 
 **200** An array of transactions. Example:
 
-```json
+```javascript
 [{
     "user": "155784937511976960",
     "timestamp": 1502829034,
@@ -97,23 +97,23 @@ Retrieves unprocessed transactions. All retrieved transactions will be marked as
 
 If no transactions, an empty array \(`[]`\) will be returned.
 
-## GET /transaction/:receipt
+### GET /transaction/:receipt
 
 Retrieves transaction info based off receipt.
 
-### Params
+#### Params
 
 `:receipt`: Your receipt ID.
 
-### Header
+#### Header
 
 `Authorization`: Your token.
 
-### Successful Return
+#### Successful Return
 
 **200**
 
-```json
+```javascript
 {
    "user":"132315148487622656",
    "timestamp":1503428678,
@@ -134,21 +134,21 @@ Retrieves transaction info based off receipt.
 
 **404**
 
-```json
+```javascript
 {"status":"error","reason":"transaction not found"}
 ```
 
-## POST /transaction
+### POST /transaction
 
 Request a transaction.
 
-### Header
+#### Header
 
 `Authorization`: Your token.
 
-### Body
+#### Body
 
-```json
+```javascript
 {
     "user": "155784937511976960",
     "amount": 1,
@@ -160,11 +160,11 @@ Request a transaction.
 * `amount`: Integer, transaction amount in originated currency
 * `exchangeTo`: String, 3-letter currency code representing the destination currency. Can be lowercased.
 
-### Successful Return
+#### Successful Return
 
 **200**
 
-```json
+```javascript
 {
     "status": "approved",
     "receipt": "dca311df716ad4a6b734e3b92f0b58d797abd98c",
@@ -177,50 +177,51 @@ Request a transaction.
 * `limitNow`: Integer, Remaining balance of Daily Per-User Limit for this user
 * `resultAmount`: Integer, How much the amount exchanged will be worth in destination currency.
 
-### Rejection Return
+#### Rejection Return
 
 **403**
 
-#### User is not verified
+**User is not verified**
 
-```json
+```javascript
 {"status": "declined", "reason": "verify required"}
 ```
 
-#### User exceeded Daily Per-User Limit
+**User exceeded Daily Per-User Limit**
 
-```json
+```javascript
 {"status": "declined", "reason" : "per-user limit exceeded", "currency": "DUT", "limit": 2500}
 ```
 
-#### User exceeded Daily Total Limit
+**User exceeded Daily Total Limit**
 
-```json
+```javascript
 {"status": "declined", "reason" : "total limit exceeded", "currency": "DUT", "limit": 100000}
 ```
 
-### Error Return
+#### Error Return
 
 **400**
 
-```json
+```javascript
 {"status": "error", "reason": "invalid amount"}
 ```
 
-```json
+```javascript
 {"status": "error", "reason": "invalid destination currency"}
 ```
 
-```json
+```javascript
 {"status": "error", "reason": "amount NaN"}
 ```
 
-## GET /rates.json
+### GET /rates.json
+
 No authorization needed.
 
-### Return
+#### Return
 
-```json
+```javascript
 [
    {
       "DueUtil":{
@@ -246,61 +247,60 @@ No authorization needed.
 ]
 ```
 
-## POST /transaction/reverse
+### POST /transaction/reverse
 
 Reject a transaction sent to your bot and allow the the source bot to refund the user.  
 Will create a transaction to the source bot marked as a "refund".
 
-### Header
+#### Header
 
 `Authorization`: Your token.
 
-### Body
+#### Body
 
-```json
+```javascript
 {
     "receipt": "e7eed14463d00e05eca7075bbc89aa7be640e494"
 }
 ```
 
-### Successful Return
+#### Successful Return
 
 **200**
 
-```json
+```javascript
 {"status": "ok", "refundAmount": 100}
 ```
 
 * `refundAmount`: This should be the amount the user attempted to exchange to your bot \(at the source bot\).
+
   It will be in the currency of the source bot.
 
-### Fails Return
-
+#### Fails Return
 
 **400**
-```json
+
+```javascript
 {"status": "failed", "reason": "cannot refund a refund"}
 ```
 
-```json
+```javascript
 {"status": "failed", "reason": "transaction already reversed"}
 ```
 
-```json
+```javascript
 {"status": "failed", "reason": "invalid receipt"}
 ```
+
 **403**
 
-```json
+```javascript
 {"status": "failed", "reason": "transaction must be to your bot"}
 ```
+
 **404**
 
-```json
+```javascript
 {"status": "failed", "reason": "transaction not found"}
 ```
-
-
-
-
 

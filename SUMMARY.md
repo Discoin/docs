@@ -1,6 +1,10 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [User's Guide](users-guide.md)
-* [Developer's Guide](developers-guide.md)
 * [API Documentation](api.md)
+
+## Developers
+
+* [Guide](developers/guide.md)
+
