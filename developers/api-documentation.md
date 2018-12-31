@@ -243,6 +243,7 @@ Get Exchange Rates
 {% api-method-description %}
 Get current exchange rates between currencies.
 {% endapi-method-description %}
+{% endapi-method %}
 
 {% api-method method="post" host="http://discoin.sidetrip.xyz" path="/transaction/reverse" %}
 {% api-method-summary %}
