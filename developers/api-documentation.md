@@ -1,6 +1,8 @@
-# API Documentation
+---
+description: API documentation for Rewritten v1.
+---
 
- API documentation for Rewritten v1.
+# API Documentation
 
 ## Libraries
 
@@ -99,18 +101,18 @@ Transaction information.
 
 ```javascript
 {
-	"amountDiscoin": 120,
-	"amountSource": 10,
-	"amountTarget": 10,
-	"processTime": 1503429255,
-	"processed": true,
-	"receipt": "3013edf87bf5a369621fd6065b1454ea7ba71464",
-	"reversed": true,
-	"source": "DUT",
-	"target": "DTS",
-	"timestamp": 1503428678,
-	"type": "normal",
-	"user": "132315148487622656"
+    "amountDiscoin": 120,
+    "amountSource": 10,
+    "amountTarget": 10,
+    "processTime": 1503429255,
+    "processed": true,
+    "receipt": "3013edf87bf5a369621fd6065b1454ea7ba71464",
+    "reversed": true,
+    "source": "DUT",
+    "target": "DTS",
+    "timestamp": 1503428678,
+    "type": "normal",
+    "user": "132315148487622656"
 }
 ```
 {% endapi-method-response-example %}
@@ -122,8 +124,8 @@ No transaction was found.
 
 ```javascript
 {
-	"reason": "transaction not found",
-	"status": "error"
+    "reason": "transaction not found",
+    "status": "error"
 }
 ```
 {% endapi-method-response-example %}
@@ -171,10 +173,10 @@ ID of user who requested the transaction
 
 ```javascript
 {
-	"limitNow": 4999,
-	"receipt": "dca311df716ad4a6b734e3b92f0b58d797abd98c",
-	"resultAmount": 1,
-	"status": "approved"
+    "limitNow": 4999,
+    "receipt": "dca311df716ad4a6b734e3b92f0b58d797abd98c",
+    "resultAmount": 1,
+    "status": "approved"
 }
 ```
 {% endapi-method-response-example %}
@@ -186,8 +188,8 @@ Invalid data \(amount or destination currency\)
 
 ```javascript
 {
-	"reason": "invalid amount",
-	"status": "error"
+    "reason": "invalid amount",
+    "status": "error"
 }
 ```
 {% endapi-method-response-example %}
@@ -201,8 +203,8 @@ User rejections.
 {% code-tabs-item title="not verified" %}
 ```javascript
 {
-	"reason": "verify required",
-	"status": "declined"
+    "reason": "verify required",
+    "status": "declined"
 }
 ```
 {% endcode-tabs-item %}
@@ -221,11 +223,10 @@ User rejections.
 {% code-tabs-item title="exceeded daily total limit" %}
 ```javascript
 {
-	"currency": "DUT",
-	"limit": 100000,
-	"reason": "total limit exceeded",
-	"status": "declined"
-}
+    "currency": "DUT",
+    "limit": 100000,
+    "reason": "total limit exceeded",
+    "status": "declineGete
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -235,52 +236,6 @@ User rejections.
 {% endapi-method %}
 
 {% api-method method="get" host="http://discoin.sidetrip.xyz" path="/rates.json" %}
-{% api-method-summary %}
-Get Exchange Rates
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Get current exchange rates between currencies.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```javascript
-[
-	{
-		"DueUtil": {
-			"currencyCode": "DUT",
-			"fromDiscoin": 0.3,
-			"toDiscoin": 1.5
-		}
-	},
-	{
-		"DiscordTel": {
-			"currencyCode": "DTS",
-			"fromDiscoin": 1,
-			"toDiscoin": 1
-		}
-	},
-	{
-		"PyButt": {
-			"currencyCode": "PYB",
-			"fromDiscoin": 1,
-			"toDiscoin": 1
-		}
-	}
-]
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
 {% api-method method="post" host="http://discoin.sidetrip.xyz" path="/transaction/reverse" %}
 {% api-method-summary %}
@@ -300,7 +255,7 @@ Your token.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="receipt" type="string" required=false %}
+{% api-method-parameter name="receipt" type="string" required=true %}
 The receipt of the transaction you want to reverse.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -314,8 +269,8 @@ Creates a transaction to the source bot marked as a "refund".
 
 ```javascript
 {
-	"refundAmount": 100,
-	"status": "ok"
+    "refundAmount": 100,
+    "status": "ok"
 }
 ```
 {% endapi-method-response-example %}
@@ -327,8 +282,8 @@ You attempted to reverse a transaction that is a refund, already is reversed, or
 
 ```javascript
 {
-	"reason": "invalid receipt",
-	"status": "failed"
+    "reason": "invalid receipt",
+    "status": "failed"
 }
 ```
 {% endapi-method-response-example %}
@@ -340,8 +295,8 @@ You attempted to reverse a transaction from another bot.
 
 ```javascript
 {
-	"reason": "transaction must be to your bot",
-	"status": "failed"
+    "reason": "transaction must be to your bot",
+    "status": "failed"
 }
 ```
 {% endapi-method-response-example %}
@@ -353,8 +308,8 @@ You attempted to reverse a transaction that couldn't be found.
 
 ```javascript
 {
-	"reason": "transaction not found",
-	"status": "failed"
+    "reason": "transaction not found",
+    "status": "failed"
 }
 ```
 {% endapi-method-response-example %}
