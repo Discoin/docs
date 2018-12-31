@@ -243,6 +243,52 @@ Get Exchange Rates
 {% api-method-description %}
 Get current exchange rates between currencies.
 {% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+A list of exchange rates.
+{% endapi-method-response-example-description %}
+
+```javascript
+[{
+	"EliteLooter": {
+		"currencyCode": "ELT",
+		"toDiscoin": 0.9,
+		"fromDiscoin": 1
+	}
+}, {
+	"KekBot": {
+		"currencyCode": "KEK",
+		"toDiscoin": 3,
+		"fromDiscoin": 1
+	}
+}, {
+	"Pollux": {
+		"currencyCode": "RBN",
+		"toDiscoin": 1,
+		"fromDiscoin": 0.9
+	}
+}, {
+	"Dice": {
+		"currencyCode": "OAT",
+		"toDiscoin": 0.1,
+		"fromDiscoin": 1
+	}
+}, {
+	"DiscordTel": {
+		"currencyCode": "DTS",
+		"toDiscoin": 1,
+		"fromDiscoin": 0.9
+	}
+}]
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
 {% endapi-method %}
 
 {% api-method method="post" host="http://discoin.sidetrip.xyz" path="/transaction/reverse" %}
