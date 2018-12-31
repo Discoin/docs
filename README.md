@@ -10,3 +10,4 @@ Introducing **Discoin**, a universal system allowing users to exchange currencie
 
 This GitBook contains everything useful for using Discoin, in developers' and users' aspects.
 
+[![Join our support server](https://discordapp.com/api/guilds/347859709711089674/widget.png?style=banner3)](https://discord.gg/NExXSDH)
