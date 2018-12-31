@@ -226,7 +226,7 @@ User rejections.
     "currency": "DUT",
     "limit": 100000,
     "reason": "total limit exceeded",
-    "status": "declineGete
+    "status": "declined"
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
