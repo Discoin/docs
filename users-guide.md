@@ -20,12 +20,15 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 | [DiscordTel\#6675](http://discordtel.rtfd.io) | `>convert <Amount> <Currency>` |  |
 | [Elite Looter\#8634](https://bots.discord.pw/bots/303799630532050946) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
-| [PokeBot\#9817](https://discordbots.org/bot/424911754242555904) | `.exchange <Currency> <Amount>` |  |
 | [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | `p!exchange` also |
 
 ## Why do I need to give out my email?
 
 To prevent users bypassing daily limits by making multiple accounts, we use your email address to filter some of them out. **We do not record or store your email address**, [as indicated in the source code](https://github.com/MacDue/DiscoinRewrite/blob/master/discoin/users.php#L147).
+
+{% hint style="tip" %}
+You shouldn't use burner addresses on Discord anyway. You'll miss out on important offers (Like free nitro).
+{% endhint %}
 
 ## Can I spend Discoins?
 
@@ -69,6 +72,5 @@ Here's a table on the earning and spending mechanisms of each bot.
 | DiscordTel \(DTS\) | `>daily` and `>lottery` if won | [Renewing your DiscordTel service](https://discordtel.austinhuang.me/en/latest/Payment/) as well as `>lottery` |
 | Elite Looter \(ELT\) | Opening crates which can be gained by chatting and also `;games` | `;shop`ing upgrades as well as playing `;games` to get more crates |
 | KekBot \(KEK\) | `$daily` and `$lottery` if won | `$shop`ing profile card decorations as well as playing `$slot` and `$lottery` |
-| PokeBot \(PCN\) | `.weekly` as well as `.explore` | `.mart` for Pokeballs |
 | Pollux \(RBN\) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop`ing crafting materials and profile decorations |
 
