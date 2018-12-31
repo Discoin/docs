@@ -236,6 +236,13 @@ User rejections.
 {% endapi-method %}
 
 {% api-method method="get" host="http://discoin.sidetrip.xyz" path="/rates.json" %}
+{% api-method-summary %}
+Get Exchange Rates
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get current exchange rates between currencies.
+{% endapi-method-description %}
 
 {% api-method method="post" host="http://discoin.sidetrip.xyz" path="/transaction/reverse" %}
 {% api-method-summary %}
