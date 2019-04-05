@@ -18,7 +18,7 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 | :--- | :--- | :--- |
 | [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dice.js.org) |
 | [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` |  |
-| [Elite Looter\#8634](https://www.sjustein.com/html/elitelooter.html) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
+| [Elite Looter\#8634](https://sjustein.com/elitelooter) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
 | [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | `p!exchange` also |
 
