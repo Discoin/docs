@@ -51,7 +51,7 @@ It's how much a user can exchange from any other currency to a specific currency
 
 ### Daily Total Limit \(DTL\)
 
-It's how much all users can exchange from any other currency to a specific currency in a day. Currently, only DueUtil has a limit of 100,000 Discoins per day. The remaining limit is not sent back to the bot.
+It's how much all users can exchange from any other currency to a specific currency in a day. Currently, most bots have a limit of 1,000,000 Discoins per day. The remaining limit is not sent back to the bot.
 
 ### What if I exceeded the limit?
 
@@ -61,7 +61,7 @@ We'll decline the transaction.
 
 1. Check [the Transaction Record](http://discoin.sidetrip.xyz/record). If it says "Unprocessed" on "Reception Date", the receiving bot hasn't pick up its unprocessed transactions yet - By standard, bots should pick up its transactions on a 5-minute interval - so just wait patiently.
 2. If it has been more than 5 minutes and the status remains "Unprocessed", contact the developer\(s\) of the receiving bot. Alternatively, type other commands of the bot to ensure it is working properly.
-3. If a timestamp is present on "Reception Date", please go to [our support server](https://discord.gg/NExXSDH) and submit a dispute.
+3. If a timestamp is present on "Reception Date", please go to [our support server](https://discord.gg/NExXSDH) and contact the Devs.
 
 ## Suggested uses of each currency
 
