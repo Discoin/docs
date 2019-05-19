@@ -47,7 +47,7 @@ For this reason, we allow bot owners to implant transaction limits for their cur
 
 ### Daily per-User Limit \(DUL\)
 
-It's how much a user can exchange from any other currency to a specific currency in a day. By default, the limit is 5000. Your remaining limit is sent back to the bot when you submit a transaction.
+It's how much a user can exchange from any other currency to a specific currency in a day. For most bots, the limit is 2500. Your remaining limit is sent back to the bot when you submit a transaction.
 
 ### Daily Total Limit \(DTL\)
 
