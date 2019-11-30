@@ -18,10 +18,10 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 | :--- | :--- | :--- |
 | [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dice.js.org) |
 | [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` |  |
-| [Elite Looter\#8634](https://sjustein.com/elitelooter) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
+| [Elite Looter\#8634](https://top.gg/bot/elitelooter) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
 | [Murder Mystery Bot#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | |
-| [Pinocchio#5540](https://pinocchiobot.tk/) | `=exchange <Amount> <Currency>`  | Info: `=discoin` |
+| [Pinocchio#5540](https://top.gg/bot/506878658607054849) | `=exchange <Amount> <Currency>`  | Info: `=discoin` |
 | [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | `p!exchange` also |
 
 ## Why do I need to give out my email?
@@ -77,4 +77,3 @@ Here's a table on the earning and spending mechanisms of each bot.
 | Murder Mystery Bot (MMB) | Typing `mm!globalgames` daily | `mm!globalgames` => Shop |
 | Pinocchio \(PIC\) | `=dailies`, chat rewards, as well as coin drops if enabled | `=waifu` (Buy discounted ones through `=rr`) as well as `=paidroles` if set |
 | Pollux \(RBN\) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop`ing crafting materials and profile decorations |
-
