@@ -22,7 +22,6 @@ Before you can exchange currency, you must [verify yourself](http://discoin.side
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
 | [Murder Mystery Bot#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | |
 | [Pinocchio#5540](https://pinocchiobot.tk/) | `=exchange <Amount> <Currency>`  | Info: `=discoin` |
-| [PoliceBot#4506](http://policebot.xyz/) | `!discoin exchange <Amount> <Currency>` | Info: `!discoin` |
 | [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | `p!exchange` also |
 
 ## Why do I need to give out my email?
@@ -77,6 +76,5 @@ Here's a table on the earning and spending mechanisms of each bot.
 | KekBot \(KEK\) | `$daily` and `$lottery` if won | `$shop`ing profile card decorations as well as playing `$slot` and `$lottery` |
 | Murder Mystery Bot (MMB) | Typing `mm!globalgames` daily | `mm!globalgames` => Shop |
 | Pinocchio \(PIC\) | `=dailies`, chat rewards, as well as coin drops if enabled | `=waifu` (Buy discounted ones through `=rr`) as well as `=paidroles` if set |
-| PoliceBot \(PBC\) | See `!cmds economy` | See `!cmds economy` |
 | Pollux \(RBN\) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop`ing crafting materials and profile decorations |
 
