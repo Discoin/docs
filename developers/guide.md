@@ -10,10 +10,10 @@ Want to provide more choices for spending your currency to your users? You've co
 
 ## Step-by-Step
 
-{% hint style="tip" %} We aim for bots that have between 500 and 5000 servers. Bots with more than 5000 servers are welcomed but may be restricted in the future, in terms of the amount of bots we accept. Bots with less than 500 servers can only be accepted at an exceptional basis, but it does need a bare minimum of 100 servers. {% endhint %}
+{% hint style="tip" %} We aim for **bots that have between 500 and 5000 servers.** Bots with more than 5000 servers are welcomed but may be restricted in the future, in terms of the amount of bots we accept. Bots with less than 500 servers can only be accepted at an exceptional basis, but it does need a bare minimum of 100 servers. {% endhint %}
 
 1. Apply for an API key [here](https://austinhuang.typeform.com/to/yABBz5).
-2. Once your approved, we'll discuss with you and determine an exchange rate, as well as limits.
+2. Once approved, we'll discuss with you and determine an exchange rate, as well as limits.
 3. Implement Discoin into your bot. 
 
 The initial exchange rate is calculated through a general daily gain of an average user. Over time, the rate and limit can be adjusted, and it is recommended for bot owners to recommend statistics over their bot economies.
