@@ -2,9 +2,9 @@
 description: Migration guide from MacDue's v2 to PizzaFox's v3.
 ---
 
-# Migration Guide
+# Rewrite Migration Guide
 
-## Getting transactions
+This page describes key API methods used within the new API \(Since [the auto-generated documentation](https://discoin.zws.im/docs) did not do a good job describe it\). You're welcomed to test everything out yourself.
 
 {% api-method method="get" host="https://discoin.zws.im" path="/transactions" %}
 {% api-method-summary %}
@@ -12,16 +12,22 @@ Get Transactions
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieves unprocessed transactions. All retrieved transactions will **NOT** be automatically marked as "Processed". A PATCH request (described later) will do so.
+Retrieves unprocessed transactions. All retrieved transactions will **NOT** be automatically marked as "Processed". A PATCH request \(described later\) will do so.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
+{% api-method-parameter name="Authorization" type="string" required=false %}
 "Bearer " + Your token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="s" type="string" required=false %}
+Search queries. By default, the API returns _all_ transactions. If you only want relevant unprocessed transactions, you can put`{"to.id": "<currency code>", "handled": false}` here \(Gotta be HTML-encoded, of course\). \(Other parameters also exist, check API docs.\)
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -31,24 +37,26 @@ An array of transactions.
 {% endapi-method-response-example-description %}
 
 ```javascript
-[{
-    "user": "155784937511976960",
-    "timestamp": 1502829034,
-    "source": "DTS",
-    "amount": 1.2,
-    "receipt": "e7eed14463d00e05eca7075bbc89aa7be640e494"
-},
-{
-    "user": "155784937511976960",
-    "timestamp": 1502829034,
-    "source": "DUT",
-    "amount": 1,
-    "receipt": "f951dae48f7ef5670270717fe57af9eb41b889f0",
-    "type": "refund"
-}]
+[
+  {
+    "id": "188986c9-7f50-479b-a447-74ccbb9ab383",
+    "amount": 10,
+    "user": "210024244766179329",
+    "handled": true,
+    "timestamp": "2019-12-25T07:21:54.941Z",
+    "payout": 1,
+    "from": {
+      "id": "OAT",
+      "name": "Dice Oats"
+    },
+    "to": {
+      "id": "DTS",
+      "name": "Discordtel Credits"
+    }
+  }
+]
 ```
 {% endapi-method-response-example %}
-
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
@@ -183,17 +191,17 @@ Invalid data \(amount or destination currency\)
 User rejections.
 {% endapi-method-response-example-description %}
 
-{% code-tabs %}
-{% code-tabs-item title="not verified" %}
+{% tabs %}
+{% tab title="not verified" %}
 ```javascript
 {
     "reason": "verify required",
     "status": "declined"
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="exceeded daily per user limit" %}
+{% tab title="exceeded daily per user limit" %}
 ```javascript
 {
     "currency": "DUT",
@@ -202,9 +210,9 @@ User rejections.
     "status": "declined"
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="exceeded daily total limit" %}
+{% tab title="exceeded daily total limit" %}
 ```javascript
 {
     "currency": "DUT",
@@ -212,72 +220,18 @@ User rejections.
     "reason": "total limit exceeded",
     "status": "declined"
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
 {% api-method method="get" host="http://discoin.sidetrip.xyz" path="/rates.json" %}
-{% api-method-summary %}
-Get Exchange Rates
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Get current exchange rates between currencies.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-A list of exchange rates.
-{% endapi-method-response-example-description %}
-
-```javascript
-[{
-	"EliteLooter": {
-		"currencyCode": "ELT",
-		"toDiscoin": 0.9,
-		"fromDiscoin": 1
-	}
-}, {
-	"KekBot": {
-		"currencyCode": "KEK",
-		"toDiscoin": 3,
-		"fromDiscoin": 1
-	}
-}, {
-	"Pollux": {
-		"currencyCode": "RBN",
-		"toDiscoin": 1,
-		"fromDiscoin": 0.9
-	}
-}, {
-	"Dice": {
-		"currencyCode": "OAT",
-		"toDiscoin": 0.1,
-		"fromDiscoin": 1
-	}
-}, {
-	"DiscordTel": {
-		"currencyCode": "DTS",
-		"toDiscoin": 1,
-		"fromDiscoin": 0.9
-	}
-}]
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
 {% api-method method="post" host="http://discoin.sidetrip.xyz" path="/transaction/reverse" %}
 {% api-method-summary %}
-Reverse a transaction
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
