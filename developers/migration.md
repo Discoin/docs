@@ -1,29 +1,25 @@
 ---
-description: API documentation for Rewritten v1.
+description: Migration guide from MacDue's v2 to PizzaFox's v3.
 ---
 
-# API Documentation
+# Migration Guide
 
-## Libraries
+## Getting transactions
 
-* ​[Java](https://github.com/Godson777/Discoin4J)​
-* ​[Node.js](https://www.npmjs.com/package/discoin)​
-* ​[Python](https://pypi.python.org/pypi/discoin)​
-
-{% api-method method="get" host="http://discoin.sidetrip.xyz" path="/transactions" %}
+{% api-method method="get" host="https://discoin.zws.im" path="/transactions" %}
 {% api-method-summary %}
 Get Transactions
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieves unprocessed transactions. All retrieved transactions will be marked as "Processed".
+Retrieves unprocessed transactions. All retrieved transactions will **NOT** be automatically marked as "Processed". A PATCH request (described later) will do so.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Your token.
+"Bearer " + Your token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -53,18 +49,6 @@ An array of transactions.
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=401 %}
-{% api-method-response-example-description %}
-Your token is invalid.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "status": "error",
-    "reason": "unauthorized"
-}
-```
-{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
