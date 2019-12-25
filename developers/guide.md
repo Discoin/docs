@@ -29,5 +29,8 @@ Let's say a user wants to exchange A bot currency to B bot currency.
 1. The user requests exchanging on A bot
 2. In the API, A bot sends a message indicates that a transaction has been started.
 3. API converts the currency and leaves a message waiting for B bot to pick up.
-4. B bot picks the message up and finishes the transaction.
+4. B bot picks the message up, marks it, and finishes the transaction.
 5. The user is notified by B bot indicates that the transaction has been finished.
+
+## API Reference
+[https://discoin.zws.im/docs](https://discoin.zws.im/docs)
