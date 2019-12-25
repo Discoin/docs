@@ -6,5 +6,5 @@
 ## Developers
 
 * [Guide](developers/guide.md)
-* [API Documentation](developers/api-documentation.md)
+* [Rewrite Migration Guide](developers/migration.md)
 
