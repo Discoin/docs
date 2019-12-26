@@ -8,30 +8,20 @@ This guide contains frequently asked questions during Discoin transactions.
 
 ## How can I exchange currency?
 
-Before you can exchange currency, you must [verify yourself](http://discoin.sidetrip.xyz/verify). After verification, refer to the table below.
-
 ### Commands List
 
 * `<Currency>` means 3-letter currency codes listed [here](http://discoin.sidetrip.xyz/rates). Exchange rates are listed there too.
 
 | Bot Name | Command | Note |
 | :--- | :--- | :--- |
-| [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dice.js.org) |
+| [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dice.js.org/commands/economy/convert-oats/) |
 | [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` |  |
 | [Elite Looter\#8634](http://sjustein.com/html/elitelooter.html) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
-| [Gamble Bot#4723](https://top.gg/bot/469946188083232769) | `.exchange <Amount> <Currency>` | |
+| [Gamble Bot\#4723](https://top.gg/bot/469946188083232769) | `.exchange <Amount> <Currency>` |  |
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
-| [Murder Mystery Bot#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | |
-| [Pinocchio#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>`  | Info: `=discoin` |
+| [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` |  |
+| [Pinocchio\#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>` | Info: `=discoin` |
 | [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | `p!exchange` also |
-
-## Why do I need to give out my email?
-
-To prevent users bypassing daily limits by making multiple accounts, we use your email address to filter some of them out. **We do not record or store your email address**, [as indicated in the source code](https://github.com/MacDue/DiscoinRewrite/blob/master/discoin/users.php#L147).
-
-{% hint style="tip" %}
-You shouldn't use burner addresses on Discord anyway. You'll miss out on important offers (Like free nitro).
-{% endhint %}
 
 ## Can I spend Discoins?
 
@@ -41,41 +31,23 @@ No. Discoin only exists during the transaction process and statistics: As a temp
 
 [Yes.](http://discoin.sidetrip.xyz/record)
 
-## Why are there transaction limits?
-
-While some bots have interesting features, they are vulnerable once the "challenge" in it has disappeared: For example, if you are playing RPG on a bot, one of your goals would be earning money to improve yourself. Discoin is supposed to be a tool helping you to reach that goal, not _a hack reaching the goal directly for you_. Without transaction limit, you will lose the power to continuing playing RPG on the bot. Also, a bot's currency system is vulnerble to inflations.
-
-For this reason, we allow bot owners to implant transaction limits for their currencies. There are two types of limits:
-
-### Daily per-User Limit \(DUL\)
-
-It's how much a user can exchange from any other currency to a specific currency in a day. For most bots, the limit is 2500. Your remaining limit is sent back to the bot when you submit a transaction.
-
-### Daily Total Limit \(DTL\)
-
-It's how much all users can exchange from any other currency to a specific currency in a day. Currently, most bots have a limit of 1,000,000 Discoins per day. The remaining limit is not sent back to the bot.
-
-### What if I exceeded the limit?
-
-We'll decline the transaction.
-
 ## I did not receive my payment!
 
-1. Check [the Transaction Record](http://discoin.sidetrip.xyz/record). If it says "Unprocessed" on "Reception Date", the receiving bot hasn't pick up its unprocessed transactions yet - By standard, bots should pick up its transactions on a 5-minute interval - so just wait patiently.
-2. If it has been more than 5 minutes and the status remains "Unprocessed", contact the developer\(s\) of the receiving bot. Alternatively, type other commands of the bot to ensure it is working properly.
-3. If a timestamp is present on "Reception Date", please go to [our support server](https://discord.gg/NExXSDH) and contact the Devs.
+1. Check [the Transaction Record](http://discoin.sidetrip.xyz/record). If it says the transaction isn't handled, the receiving bot hasn't processed it yet - By standard, bots should pick up its transactions on a 5-minute interval - so just wait patiently.
+2. If it has been more than 5 minutes and the transaction still isn't handled, contact the developer\(s\) of the receiving bot.
 
 ## Suggested uses of each currency
 
 Here's a table on the earning and spending mechanisms of each bot.
 
-| Bot \(Currency Code\) | How to Earn (Except voting) | How to Spend |
+| Bot \(Currency Code\) | How to Earn \(Except voting\) | How to Spend |
 | :--- | :--- | :--- |
-| Dice \(OAT\) | `$$daily` and `$$dice-game` if won | Wager in `$$dice-game` |
+| Dice \(OAT\) | `$$daily` and `$$dice-game` if won | Gambling in `$$dice-game` |
 | DiscordTel \(DTS\) | `>daily` and `>lottery` if won | [Renewing your DiscordTel service](https://discordtel.austinhuang.me/en/latest/Payment/) as well as `>lottery` |
 | Elite Looter \(ELT\) | Opening crates which can be gained by chatting and also `;games` | `;shop`ing upgrades as well as playing `;games` to get more crates |
 | KekBot \(KEK\) | `$daily` and `$lottery` if won | `$shop`ing profile card decorations as well as playing `$slot` and `$lottery` |
 | Gamble Bot \(TKN\) | `.work`, `.hourly`, `.daily`, `.rob` as well as game wagers | Gambling commands such as `.roulette`, `.crash`, `.slots`, `.blackjack` and `.rps` |
-| Murder Mystery Bot \(MMB\) | Typing `mm!globalgames` daily | `mm!globalgames` => Shop |
-| Pinocchio \(PIC\) | `=dailies`, chat rewards, as well as coin drops if enabled | `=waifu` (Buy discounted ones through `=rr`) as well as `=paidroles` if set |
+| Murder Mystery Bot \(MMB\) | Typing `mm!globalgames` daily | `mm!globalgames` =&gt; Shop |
+| Pinocchio \(PIC\) | `=dailies`, chat rewards, as well as coin drops if enabled | `=waifu` \(Buy discounted ones through `=rr`\) as well as `=paidroles` if set |
 | Pollux \(RBN\) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop`ing crafting materials and profile decorations |
+

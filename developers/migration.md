@@ -23,6 +23,12 @@ Transaction ID.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=false %}
+"Bearer " + Your token.
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
 {% api-method-query-parameters %}
 {% api-method-parameter name="s" type="string" required=false %}
 Search queries. By default, the API returns _all_ transactions. If you only want relevant unprocessed transactions, you can put`{"to.id": "<currency code>", "handled": false}` here \(Gotta be HTML-encoded, of course\). \(Other parameters also exist, check API docs.\)
@@ -79,12 +85,12 @@ Request a transaction.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="amount" type="number" required=true %}
+{% api-method-parameter name="amount" type="integer" required=true %}
 Transaction amount in original currency.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="toId" type="string" required=true %}
-String, 3-letter currency code representing the destination currency. It's `"toId"` not the past form of `"told"`.
+{% api-method-parameter name="toId" type="integer" required=true %}
+String, 3-letter currency code representing the destination currency. It's "to id" not the past form of "tell".
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="user" type="string" required=true %}
@@ -94,9 +100,9 @@ ID of user who requested the transaction.
 {% endapi-method-request %}
 
 {% api-method-response %}
-{% api-method-response-example httpCode=201 %}
+{% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Shows transaction details. Notice that it provides the transaction ID as well.
+Shows transaction details.
 {% endapi-method-response-example-description %}
 
 ```javascript
@@ -128,7 +134,7 @@ Process transactions
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update a transaction, usually this means marking a transaction as processed.
+Mark a transaction as processed.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -146,7 +152,7 @@ Transaction ID.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="handled" type="boolean" required=false %}
+{% api-method-parameter name="handled" type="boolean" required=true %}
 Should be `true` to mark this transaction as processed.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
