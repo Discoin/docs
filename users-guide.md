@@ -10,7 +10,7 @@ This guide contains frequently asked questions during Discoin transactions.
 
 ### Commands List
 
-* `<Currency>` means 3-letter currency codes listed [here](http://discoin.sidetrip.xyz/rates). Exchange rates are listed there too.
+* `<Currency>` means 3-letter currency codes listed [here](https://dash.discoin.zws.im/#/currencies). Exchange rates are listed there too.
 
 | Bot Name | Command | Note |
 | :--- | :--- | :--- |
@@ -29,11 +29,11 @@ No. Discoin only exists during the transaction process and statistics: As a temp
 
 ## Can I have a transaction record?
 
-[Yes.](http://discoin.sidetrip.xyz/record)
+[https://dash.discoin.zws.im/](https://dash.discoin.zws.im/)
 
 ## I did not receive my payment!
 
-1. Check [the Transaction Record](http://discoin.sidetrip.xyz/record). If it says the transaction isn't handled, the receiving bot hasn't processed it yet - By standard, bots should pick up its transactions on a 5-minute interval - so just wait patiently.
+1. Check [the Transaction Record](https://dash.discoin.zws.im/). If it says the transaction isn't handled, the receiving bot hasn't processed it yet - By standard, bots should pick up its transactions on a 5-minute interval - so just wait patiently.
 2. If it has been more than 5 minutes and the transaction still isn't handled, contact the developer\(s\) of the receiving bot.
 
 ## Suggested uses of each currency
