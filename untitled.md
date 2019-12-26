@@ -1,3 +1,7 @@
+---
+description: How Discoin automatically adjusts for inflation.
+---
+
 # Dynamic rates and reserve
 
 ## Setup <a id="37ba7d35-ac82-4300-a288-82df4f9d95f7"></a>
