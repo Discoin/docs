@@ -17,6 +17,7 @@ This guide contains frequently asked questions during Discoin transactions.
 | [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dice.js.org/commands/economy/convert-oats/) |
 | [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` |  |
 | [Elite Looter\#8634](http://sjustein.com/html/elitelooter.html) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
+| [Gami\#7891](https://gami.app) | `-transfer <Amount> <Currency>` | Rates: `-transfer rates` |
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
 | [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` |  |
 | [Pinocchio\#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>` | Info: `=discoin` |
@@ -44,6 +45,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 | Dice \(OAT\) | `$$daily` and `$$dice-game` if won | Gambling in `$$dice-game` |
 | DiscordTel \(DTS\) | `>daily` and `>lottery` if won | [Renewing your DiscordTel service](https://discordtel.austinhuang.me/en/latest/Payment/) as well as `>lottery` |
 | Elite Looter \(ELT\) | Opening crates which can be gained by chatting and also `;games` | `;shop`ing upgrades as well as playing `;games` to get more crates |
+| Gami \(GBC\) | `-daily`, `-beg`, `-steal`, `-work` | `-gamble` |
 | KekBot \(KEK\) | `$daily` and `$lottery` if won | `$shop`ing profile card decorations as well as playing `$slot` and `$lottery` |
 | Murder Mystery Bot \(MMB\) | Typing `mm!globalgames` daily | `mm!globalgames` =&gt; Shop |
 | Pinocchio \(PIC\) | `=dailies`, chat rewards, as well as coin drops if enabled | `=waifu` \(Buy discounted ones through `=rr`\) as well as `=paidroles` if set |
