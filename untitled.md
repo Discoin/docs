@@ -22,7 +22,7 @@ $$
 
 ## A transaction is started <a id="8996db05-1115-466e-8e42-5ccbd6e41766"></a>
 
-A user wants to convert 10 ABC into DTS.
+A user wants to convert 10 ABC into XYZ.
 
 Discoin has their 10 ABC added to the reserve.
 
