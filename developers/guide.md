@@ -8,11 +8,13 @@ description: >-
 
 ## Step-by-Step
 
-{% hint style="tip" %} We generally aim for **bots that have between 500 and 10000 servers.**
+{% hint style="info" %}
+We generally aim for **bots that have between 500 and 50000 servers.**
 
-Bots with more than 10000 servers are welcomed for now but may be restricted in terms of the amount of bots we accept in the future.
+Bots with **more than 50000 servers** are also welcomed.
 
-Bots with less than 500 servers can only be accepted at an exceptional basis, but it does need a bare minimum of 100 servers. {% endhint %}
+Bots with less than 500 servers can only be accepted at an exceptional basis, but it does need a bare minimum of 100 servers.
+{% endhint %}
 
 1. Apply for an API key [here](https://austinhuang.typeform.com/to/yABBz5).
 2. Once approved, we'll discuss with you and determine an exchange rate, as well as limits.
@@ -33,4 +35,6 @@ Let's say a user wants to exchange A bot currency to B bot currency.
 5. The user is notified by B bot indicates that the transaction has been finished.
 
 ## API Reference
+
 [https://discoin.zws.im/docs](https://discoin.zws.im/docs)
+
