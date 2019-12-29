@@ -24,8 +24,9 @@ description: This guide contains frequently asked questions during Discoin trans
 | [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` |  |
 | [Pinocchio\#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>` | Info: `=discoin` |
 | [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | `p!exchange` also |
+| [Theelgirl's DueUtil\#6258](https://dueutil.org) | `!exchange <Amount> <Currency> <DUT/DUTC/DUP>` | Info: `!help exchange` |
 
-## Can I spend Discoins?
+## Can I get/spend Discoins?
 
 No. Discoin only exists during the transaction process and statistics: As a temporary currency, Discoin can only be converted from one currency to another; as a universal _unit_ for calculating currency, it is only used for calculating exchange rates.
 
@@ -52,4 +53,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 | Murder Mystery Bot \(MMB\) | Typing `mm!globalgames` daily | `mm!globalgames` =&gt; Shop |
 | Pinocchio \(PIC\) | `=dailies`, chat rewards, as well as coin drops if enabled | `=waifu` \(Buy discounted ones through `=rr`\) as well as `=paidroles` if set |
 | Pollux \(RBN\) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop`ing crafting materials and profile decorations |
+| Theelx's DueUtil \(DUT\) | `!daily`, `!joinjob` as well as quests | `!shop` for upgrades |
+| ~ \(DUTC\) | `!daily` as well as quests | `!teamshop`  |
+| ~ \(DUP\) | `!prestige` | `!prestigeshop` |
 
