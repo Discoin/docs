@@ -52,7 +52,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 | Gami \(GBC\) | `-daily`, `-beg`, `-steal`, `-work` | `-gamble` |
 | Murder Mystery Bot \(MMB\) | Typing `mm!globalgames` daily | `mm!globalgames` =&gt; Shop |
 | Pinocchio \(PIC\) | `=dailies`, chat rewards, as well as coin drops if enabled | `=waifu` \(Buy discounted ones through `=rr`\) as well as `=paidroles` if set |
-| Pollux \(RBN\) | `+daily` and `+pick` up someone's dropped Rubines | `+drop` to let someone pick up your Rubines as well as `+shop`ing crafting materials and profile decorations |
+| Pollux \(RBN\) | `+daily`  | `+shop`ing crafting materials and profile decorations |
 | Theelx's DueUtil \(DUT\) | `!daily`, `!joinjob` as well as quests | `!shop` for upgrades |
 | ~ \(DUTC\) | `!daily` as well as quests | `!teamshop`  |
 | ~ \(DUP\) | `!prestige` | `!prestigeshop` |
