@@ -5,7 +5,7 @@ description: This guide contains frequently asked questions during Discoin trans
 # User's Guide
 
 {% hint style="warning" %}
-**If you farm currencies,** specifically, if you operate a server exclusively for earning currencies for Discoin-participating bots, or we've found you intentionally spamming each bot to earn currencies, we'll notify all participating bot owners. In other words, **you are punished.** In Pollux, you risk your profile being wiped out. In other bots, you also risk you or your guild being blacklisted. We have the ability to track down each server and user's activity, so please don't try us.
+**If you farm currencies,** specifically, if you operate a server exclusively for earning currencies for Discoin-participating bots, or we've found you intentionally spamming each bot to earn currencies, we'll notify all participating bot owners. **Violators will have their accounts deleted and permanently banned.**
 {% endhint %}
 
 ## How can I exchange currency?
