@@ -48,3 +48,5 @@ $$
 10 \space \text{ABC} \rightarrow 18.1 \space \mathbb{D}\$ \rightarrow\text{XYZ}
 $$
 
+Connecting to the reality, Discoin uses a mix of Bretton Woods System \(pegging against a certain amount of resource, in their case Gold, in our case Discoin tokens\) and floating exchange rate \(supply and demand flunctuates the rate\).
+
