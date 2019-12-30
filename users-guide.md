@@ -18,7 +18,7 @@ description: This guide contains frequently asked questions during Discoin trans
 | :--- | :--- | :--- |
 | [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | [Documentation](https://dice.js.org/commands/economy/convert-oats/) |
 | [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` |  |
-| [DueUtil 3.0\#0764](https://dueutil.xyz) | `!exchange <Amount> <Currency>` |  |
+| [DueUtil 3.0\#0764](https://dueutil.xyz) | `!exchange <Amount> <Currency>` | !help exchange |
 | [Elite Looter\#8634](http://sjustein.com/html/elitelooter.html) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
 | [Gami\#7891](https://gami.app) | `-transfer <Amount> <Currency>` | Rates: `-transfer rates` |
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
