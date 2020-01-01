@@ -61,7 +61,9 @@ Here's a table on the earning and spending mechanisms of each bot.
 
 ## Credits \(aka. "How can I support Discoin as a non-developer?"\)
 
-* Discoin v3 is coded and hosted by [Jonah Snider](https://jonah.pw), owner of Dice. Consider supporting him on [Patreon](https://www.patreon.com/pizzafox) to help paying for server cost!
-* The concept, math, and non-technical documentation of Discoin is developped by [Austin Huang](https://austinhuang.me), owner of DiscordTel. Considering [donating ](https://austinhuang.me/donate)as well!
+* Discoin v3 is coded and hosted by [Jonah Snider](https://jonah.pw) \(Dice\). Consider supporting him on [Patreon](https://www.patreon.com/pizzafox) to help paying for server cost!
+* The concept, math, and non-technical documentation of Discoin is developed by [Austin Huang](https://austinhuang.me) \(DiscordTel\).
+* [Ari Gami](https://github.com/dr-ari-gami) \(Gami\), [Charalampos Fanoulis](https://enkiel.cloud), [DeveloperAnonymous](https://github.com/DeveloperAnonymous) \(DueUtil 3.0\), [Ed Luff](https://github.com/Rexogamer) \(DiscordTel\), [Godson](https://github.com/Godson777) \(Kekbot\) and [Theelgirl](https://github.com/Theelgirl) \('s DueUtil\) contributed to the [libraries](developers/guide.md#libraries).
 * [Discoin is open source.](https://github.com/discoin/api-v3) If you cannot contribute financially, consider contributing your time reviewing the code!
+* And of course, you can easily support Discoin by spreading the word to the world! Convince the developers of your favourite bot\(s\) to implement Discoin by showing this guide to them.
 

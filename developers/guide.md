@@ -48,9 +48,9 @@ So you need 2 parts: A command to initiate a transaction, and a module \(cron jo
 
 ## Libraries
 
+* [Java](https://github.com/godson777/discoin4j)
+* [JavaScript](https://npmjs.com/@discoin/scambio)
 * [Python](https://pypi.org/project/discoin/)
-
-Coming soon: Java, JavaScript
 
 ## API Reference
 
