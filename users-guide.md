@@ -61,7 +61,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 | DiscordTel \(DTS\) | `>lottery` if won | [Renewing your DiscordTel service](https://discordtel.austinhuang.me/en/latest/Payment/), `>message` as well as `>lottery` |
 | DueUtil 3.0 \(DUC\) | Quests and `d!blackjack` | `!shop` |
 | Elite Looter \(ELT\) | `;open`ing crates gained by chatting, also `;games` | `;shop`ing upgrades as well as playing `;games` to get more crates |
-| KekBot \(KEK\) | `$lottery` if won | `$shop`ing profile card decorations as well as`$lottery` |
+| KekBot \(KEK\) | `$lottery` if won, also `$game` | `$shop`ing profile card decorations as well as`$lottery` |
 | Gami \(GBC\) | `-beg`, `-steal`, `-work` | `-gamble` |
 | Lootcord \(LCN\) | `t-trivia`, `t-scramble`, `t-gamble`as well as by`t-sell` items/boxes and`t-use` items to loot other users, as well as [depositing in a clan to earn interest](https://github.com/blobfysh/Lootcord/wiki/Clans), see [FAQ](https://lootcord.com/faq) | `t-shop`, `t-bm`, `t-trade` |
 | Murder Mystery Bot \(MMB\) | Typing `mm!globalgames` daily | `mm!globalgames` =&gt; Shop |
