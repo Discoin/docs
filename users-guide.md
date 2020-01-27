@@ -27,7 +27,8 @@ description: This guide contains frequently asked questions during Discoin trans
 | Bot Name | Command | Note |
 | :--- | :--- | :--- |
 | [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | Rates: `$$discoin-rates` |
-| [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` | Rates: `>convert`, allows 2-digit floats |
+| [Digimon Universe\#9783](https://top.gg/bot/617159282668077066) | `d-exchange <Currency> <Amount>` |  |
+| [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` | Allows 2-digit floats |
 | [DueUtil 3.0\#0764](https://dueutil.xyz) | `d!exchange <Amount> <Currency>` | Max 500k DUC per transaction |
 | [Elite Looter\#8634](http://sjustein.com/html/elitelooter.html) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
 | [Gami\#7891](https://gami.app) | `-transfer <Amount> <Currency>` | Rates: `-transfer rates` |
@@ -58,6 +59,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 | Bot \(Currency Code\) | How to Earn \(Except voting and daily\) | How to Spend |
 | :--- | :--- | :--- |
 | Dice \(OAT\) | `$$dice-game` if won | Gambling in `$$dice-game` |
+| Digimon Universe \(BIT\) | `d-battle` | `d-shop` |
 | DiscordTel \(DTS\) | `>lottery` if won | [Renewing your DiscordTel service](https://discordtel.austinhuang.me/en/latest/Payment/), `>message` as well as `>lottery` |
 | DueUtil 3.0 \(DUC\) | Quests and `d!blackjack` | `!shop` |
 | Elite Looter \(ELT\) | `;open`ing crates gained by chatting, also `;games` | `;shop`ing upgrades as well as playing `;games` to get more crates |
@@ -67,8 +69,8 @@ Here's a table on the earning and spending mechanisms of each bot.
 | Murder Mystery Bot \(MMB\) | Typing `mm!globalgames` daily | `mm!globalgames` =&gt; Shop |
 | Pinocchio \(PIC\) | Chat rewards, as well as coin drops if enabled | `=waifu` \(Buy discounted ones through `=rr`\) as well as `=paidroles` if set |
 | Pollux \(RBN\) | `+betflip`, `+blackjack`, `+slots` | `+shop`ing crafting materials and profile decorations |
-| Theelgirl's DueUtil \(DUT\) | Quests, `!joinjob`  | `!shop` for upgrades |
-| ~ \(DTC\) | Quests | `!teamshop`  |
+| Theelgirl's DueUtil \(DUT\) | Quests, `!joinjob` | `!shop` for upgrades |
+| ~ \(DTC\) | Quests | `!teamshop` |
 | ~ \(DUP\) | `!prestige` | `!prestigeshop` |
 
 ![And, fun fact: These currencies got graphics!](.gitbook/assets/image.png)
