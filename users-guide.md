@@ -8,10 +8,6 @@ description: This guide contains frequently asked questions during Discoin trans
 **If you farm currencies,** specifically, if you operate a server exclusively for earning currencies for Discoin-participating bots, or we've found you intentionally spamming each bot to earn currencies, we'll notify all participating bot owners. **Violators will have their accounts deleted and permanently banned.**
 {% endhint %}
 
-{% hint style="danger" %}
-**Pollux is currently not accepting/sending transactions** due to the possibility of a currency reform. Refund will probably take place once Flicky has decided on the plan.
-{% endhint %}
-
 ## How can I exchange currency?
 
 ### Procedure
@@ -36,7 +32,7 @@ description: This guide contains frequently asked questions during Discoin trans
 | [Lootcord\#6294](https://lootcord.com) | `t-convert <Amount> <Currency>` |  |
 | [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | Must create an account to receive Discoin =&gt; `mm!globalgames` |
 | [Pinocchio\#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>` | Info: `=discoin` |
-| [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | **Discoin modules not in service. See top.** |
+| [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | \*\*\*\* |
 | [Theelgirl's DueUtil\#6258](https://dueutil.org) | `!exchange <Amount> <Currency> <DUT/DUTC/DUP>` | Send/Receive limited to 10 transactions per 24h, sending limit exists |
 
 ## Can I get/spend Discoins?
