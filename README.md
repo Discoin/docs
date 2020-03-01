@@ -2,9 +2,9 @@
 
 ## What is Discoin? \(For users\)
 
-Are you a user looking to facilitate your experience for multiple economy bots at once? Discoin is the premier Hub for Discord's global bot economy! Convert bot currencies from one to another bot, invest your earnings and get high returns! You can read the [User's Guide](users-guide.md) for more info, and add participating bots to your server to start earning the **B I G   M O N E H !** \(Or you can try them out at the server below, I guess.\)
+Are you a user looking to facilitate your experience for multiple economy bots at once? Discoin is the premier Hub for Discord's global bot economy! Convert bot currencies from one to another bot, invest your earnings and get high returns! You can read the [User's Guide](users-guide.md) for more info, and add participating bots to your server to start earning the **B I G   M O N E H !** \(Or you can try them out at the server below, I guess.
 
-[![Join our support server](https://discordapp.com/api/guilds/347859709711089674/widget.png?style=banner3)](https://discord.gg/NExXSDH)
+\*\*\*\*[**JOIN OUR SUPPORT SERVER!**](https://discord.gg/k485bSu)
 
 ## What is Discoin, really? \(For developers\)
 
