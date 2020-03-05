@@ -61,8 +61,6 @@ No. Discoin only exists during the transaction process and statistics: As a univ
 1. Check [the Transaction Record](https://dash.discoin.zws.im/). If it says the transaction isn't handled, the receiving bot hasn't processed it yet.
 2. If it has been more than 5 minutes and the transaction still isn't handled, check if there are any restrictions in place, which are usually announced on this page as well as the support server. Still no avail? Contact the developer\(s\) of the receiving bot.
 
-## Prohibited Actions
-
 ## Suggested uses of each currency
 
 Here's a table on the earning and spending mechanisms of each bot.
