@@ -4,8 +4,21 @@ description: This guide contains frequently asked questions during Discoin trans
 
 # User's Guide
 
-{% hint style="warning" %}
-**If you farm currencies,** specifically, if you operate a server exclusively for earning currencies for Discoin-participating bots, or we've found you intentionally spamming each bot to earn currencies, we'll notify all participating bot owners. **Violators will have their accounts deleted and permanently banned.**
+{% hint style="info" %}
+Discoin is meant to supplement user income on each bot. While certain actions, like  investments, are encouraged by design, everything has a limit. To keep the economies running in reasonable order, please convert currencies reasonably and responsibly.
+{% endhint %}
+
+{% hint style="danger" %}
+**The following actions are prohibited on Discoin. Violators will be punished at the discretion of each participating bot owners.**
+
+* Converting any currency, illicitly acquired, within the Discoin system. By "illicitly acquired", actions include, but are not limited to, the following:
+  * Automated actions, including macros, selfbotting, etc.;
+  * Exploitations of bot mechanisms in any way not intended by bot owners;
+  * Acquisitions of currency that are illicitly acquired by other users;
+  * Other actions prohibited by terms and conditions imposed by other parties, including but not limited to participating bots and Discord.
+* Perform automated transactions, through macros, selfbotting, etc.
+* Exploit Discoin mechanisms in any way not intended by developers, including but not limited to its calculation of rates and reserves.
+* Any action that can fall under "Unlawful Access of Computers".
 {% endhint %}
 
 ## How can I exchange currency?
@@ -48,6 +61,8 @@ No. Discoin only exists during the transaction process and statistics: As a univ
 1. Check [the Transaction Record](https://dash.discoin.zws.im/). If it says the transaction isn't handled, the receiving bot hasn't processed it yet.
 2. If it has been more than 5 minutes and the transaction still isn't handled, check if there are any restrictions in place, which are usually announced on this page as well as the support server. Still no avail? Contact the developer\(s\) of the receiving bot.
 
+## Prohibited Actions
+
 ## Suggested uses of each currency
 
 Here's a table on the earning and spending mechanisms of each bot.
@@ -76,7 +91,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 Discoin is a cooperative project, combining efforts of many developers from diverse backgrounds across the globe.
 
 * Discoin v3 is coded and hosted by [Jonah Snider](https://jonah.pw) \(Dice\). Subdomain provided by [Zero Width Shortener](https://zws.im). Consider supporting him on [Patreon](https://www.patreon.com/pizzafox) or [Open Collective](https://opencollective.com/zws) to help paying for server cost!
-* The concept, math, and non-technical documentation of Discoin is developed by [Austin Huang](https://austinhuang.me) \(DiscordTel\).
+* The concept, math, and non-technical documentation of Discoin is developed by [Austin Huang](https://austinhuang.me) \(DiscordTel\), with help from [Mitchell Rademaker](https://github.com/mitchell3514) \(DiscordTel\).
 * [Ari Gami](https://github.com/dr-ari-gami) \(Gami\), [DeveloperAnonymous](https://github.com/DeveloperAnonymous) \(DueUtil 3.0\), [Godson](https://github.com/Godson777) \(Kekbot\) and [Theelgirl](https://github.com/Theelgirl) \('s DueUtil\) contributed to the [libraries](developers/guide.md#libraries).
 * Currency graphics \(except Discoin logo\) created by [Lucas Flicky](http://lucasflicky.com/) \(Pollux\). Discoin logo created by ImRock \([Welcomer](https://welcomer.gg)\).
 * [Discoin is open source.](https://github.com/discoin/api-v3) If you cannot contribute financially, consider contributing your time reviewing the code!
