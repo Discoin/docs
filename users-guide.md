@@ -35,15 +35,16 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
 
 | Bot Name | Command | Note |
 | :--- | :--- | :--- |
+| [ChaosRPG\#3409](https://top.gg/bot/603974948335124491) | `?convert <Amount> <CURRENCY>` | Rates: `?rates`. Must create account:`?start` |
 | [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | Rates: `$$discoin-rates` |
 | [Digimon Universe\#9783](https://top.gg/bot/617159282668077066) | `d-exchange <Currency> <Amount>` |  |
-| [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` | Allows 2-digit floats |
+| [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` |  |
 | [DueUtil 3.0\#0764](https://dueutil.xyz) | `d!exchange <Amount> <Currency>` | Max 500k DUC per transaction |
 | [Elite Looter\#8634](http://sjustein.com/html/elitelooter.html) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
 | [Gami\#7891](https://gami.app) | `-transfer <Amount> <Currency>` | Rates: `-transfer rates` |
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
 | [Lootcord\#6294](https://lootcord.com) | `t-convert <Amount> <Currency>` |  |
-| [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | Must create an account to receive Discoin =&gt; `mm!globalgames` |
+| [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | Must create account:`mm!globalgames` |
 | [Pinocchio\#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>` | Info: `=discoin` |
 | [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | \*\*\*\* |
 | [Theelgirl's DueUtil\#6258](https://dueutil.org) | `!exchange <Amount> <Currency> <DUT/DUTC/DUP>` | Send/Receive limited to 10 transactions per 24h, sending limit exists |
@@ -67,6 +68,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 
 | Bot \(Currency Code\) | How to Earn \(Except voting and daily\) | How to Spend |
 | :--- | :--- | :--- |
+| ChaosRPG \(CPG\) | `?battle` | `?shop` |
 | Dice \(OAT\) | `$$dice-game` if won | Gambling in `$$dice-game` |
 | Digimon Universe \(BIT\) | `d-battle` | `d-shop` |
 | DiscordTel \(DTS\) | `>lottery` if won | [Renewing your DiscordTel service](https://discordtel.austinhuang.me/en/latest/Payment/), `>message` as well as `>lottery` |
