@@ -19,11 +19,7 @@ And a BONUS: **Educating** - By giving a taste of investment with gains and loss
 ## Step-by-Step
 
 {% hint style="success" %}
-We generally aim for **bots that have between 500 and 50000 servers.**
-
-Bots with **more than 50000 servers** are also welcomed.
-
-Bots with less than 500 servers can only be accepted at an exceptional basis, but it does need a bare minimum of 100 servers.
+We accept **verified** bots with more than **250** servers.
 {% endhint %}
 
 1. Apply for an API key [here](https://austinhuang.typeform.com/to/yABBz5).

@@ -46,7 +46,7 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
 | [Lootcord\#6294](https://lootcord.com) | `t-convert <Amount> <Currency>` |  |
 | [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | Must create account:`mm!globalgames` |
 | [Pinocchio\#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>` | Info: `=discoin` |
-| [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | \*\*\*\* |
+| [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | Has outbound tax |
 | [Theelgirl's DueUtil\#6258](https://dueutil.org) | `!exchange <Amount> <Currency> <DUT/DUTC/DUP>` | Send/Receive limited to 10 transactions per 24h, sending limit exists |
 
 ## Can I get/spend Discoins?
@@ -90,7 +90,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 
 Discoin is a cooperative project, combining efforts of many developers from diverse backgrounds across the globe.
 
-* Discoin v3 is coded and hosted by [Jonah Snider](https://jonah.pw) \(Dice\). Subdomain provided by [Zero Width Shortener](https://zws.im). Consider supporting him on [Patreon](https://www.patreon.com/pizzafox) or [Open Collective](https://opencollective.com/zws) to help paying for server cost!
+* Discoin v3 is written and hosted by [Jonah Snider](https://jonah.pw) \(Dice\). Subdomain provided by [Zero Width Shortener](https://zws.im). Consider supporting him on [Patreon](https://www.patreon.com/pizzafox) or [Open Collective](https://opencollective.com/zws) to help paying for server cost!
 * The concept, math, and non-technical documentation of Discoin is developed by [Austin Huang](https://austinhuang.me) \(DiscordTel\), with help from [Mitchell Rademaker](https://github.com/mitchell3514) \(DiscordTel\).
 * [Ari Gami](https://github.com/dr-ari-gami) \(Gami\), [DeveloperAnonymous](https://github.com/DeveloperAnonymous) \(DueUtil 3.0\), [Godson](https://github.com/Godson777) \(Kekbot\) and [Theelgirl](https://github.com/Theelgirl) \('s DueUtil\) contributed to the [libraries](developers/guide.md#libraries).
 * Currency graphics \(except Discoin logo\) created by [Lucas Flicky](http://lucasflicky.com/) \(Pollux\). Discoin logo created by ImRock \([Welcomer](https://welcomer.gg)\).
