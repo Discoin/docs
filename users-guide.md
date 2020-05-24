@@ -17,7 +17,7 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
   * Acquisitions of currency that are illicitly acquired by other users;
   * Other actions prohibited by terms and conditions imposed by other parties, including but not limited to participating bots and Discord.
 * Perform automated transactions, through macros, selfbotting, etc.
-* Exploit Discoin mechanisms in any way not intended by developers, including but not limited to its calculation of rates and reserves.
+* Exploit Discoin mechanisms in any way not intended by developers \(e.g. pump & dump\).
 * Any action that can fall under "Unlawful Access of Computers".
 {% endhint %}
 
@@ -35,6 +35,7 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
 
 | Bot Name | Command | Note |
 | :--- | :--- | :--- |
+| [BattleBanana\#0764](https://dueutil.xyz) | `!exchange <Amount> <Currency>` | Max 500k BBT per transaction |
 | [ChaosRPG\#3409](https://top.gg/bot/603974948335124491) | `?convert <Amount> <CURRENCY>` | Rates: `?rates`. Must create account:`?start` |
 | [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | Rates: `$$discoin-rates` |
 | [Digimon Universe\#9783](https://top.gg/bot/617159282668077066) | `d-exchange <Currency> <Amount>` |  |
@@ -45,9 +46,10 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
 | [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
 | [Lootcord\#6294](https://lootcord.com) | `t-convert <Amount> <Currency>` |  |
 | [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | Must create account:`mm!globalgames` |
+| [Nova\#2243](https://top.gg/bot/460952742672990217) | _coming soon_ |  |
 | [Pinocchio\#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>` | Info: `=discoin` |
 | [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | Has outbound tax |
-| [Theelgirl's DueUtil\#6258](https://dueutil.org) | `!exchange <Amount> <Currency> <DUT/DUTC/DUP>` | Send/Receive limited to 10 transactions per 24h, sending limit exists |
+| [TheelUtil\#6258](https://dueutil.org) | `!exchange <Amount> <Currency> <TUT/TTC/TUP>` | Send/Receive limited to 10 transactions per 24h, sending limit exists |
 
 ## Can I get/spend Discoins?
 
@@ -66,34 +68,134 @@ No. Discoin only exists during the transaction process and statistics: As a univ
 
 Here's a table on the earning and spending mechanisms of each bot.
 
-| Bot \(Currency Code\) | How to Earn \(Except voting and daily\) | How to Spend |
-| :--- | :--- | :--- |
-| ChaosRPG \(CPG\) | `?battle` | `?shop` |
-| Dice \(OAT\) | `$$dice-game` if won | Gambling in `$$dice-game` |
-| Digimon Universe \(BIT\) | `d-battle` | `d-shop` |
-| DiscordTel \(DTS\) | `>lottery` if won | [Renewing your DiscordTel service](https://discordtel.austinhuang.me/en/latest/Payment/), `>message` as well as `>lottery` |
-| DueUtil 3.0 \(DUC\) | Quests and `d!blackjack` | `!shop` |
-| Elite Looter \(ELT\) | `;open`ing crates gained by chatting, also `;games` | `;shop`ing upgrades as well as playing `;games` to get more crates |
-| KekBot \(KEK\) | `$lottery` if won, also `$game` | `$shop`ing profile card decorations as well as`$lottery` |
-| Gami \(GBC\) | `-beg`, `-steal`, `-work` | `-gamble` |
-| Lootcord \(LCN\) | `t-trivia`, `t-scramble`, `t-gamble`as well as by`t-sell` items/boxes and`t-use` items to loot other users, as well as [depositing in a clan to earn interest](https://github.com/blobfysh/Lootcord/wiki/Clans), see [FAQ](https://lootcord.com/faq) | `t-shop`, `t-bm`, `t-trade` |
-| Murder Mystery Bot \(MMB\) | Typing `mm!globalgames` daily | `mm!globalgames` =&gt; Shop |
-| Pinocchio \(PIC\) | Chat rewards, as well as coin drops if enabled | `=waifu` \(Buy discounted ones through `=rr`\) as well as `=paidroles` if set |
-| Pollux \(RBN\) | `+betflip`, `+blackjack`, `+slots` | `+shop`ing crafting materials and profile decorations |
-| Theelgirl's DueUtil \(DUT\) | Quests, `!joinjob` | `!shop` for upgrades |
-| ~ \(DTC\) | Quests | `!teamshop` |
-| ~ \(DUP\) | `!prestige` | `!prestigeshop` |
-
-![And, fun fact: These currencies got graphics!](.gitbook/assets/image.png)
-
-## Credits \(aka. "How can I support Discoin?"\)
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">
+        <p>Bot (Currency</p>
+        <p>Code)</p>
+      </th>
+      <th style="text-align:left">How to Earn (Except voting and daily)</th>
+      <th style="text-align:left">How to Spend</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">BattleBanana (BBT)</td>
+      <td style="text-align:left">Quests and <code>!blackjack</code>
+      </td>
+      <td style="text-align:left"><code>!shop</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ChaosRPG (CPG)</td>
+      <td style="text-align:left"><code>?battle</code>
+      </td>
+      <td style="text-align:left"><code>?shop</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Dice (OAT)</td>
+      <td style="text-align:left"><code>$$dice-game</code> if won</td>
+      <td style="text-align:left">Gambling in <code>$$dice-game</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Digimon Universe (BIT)</td>
+      <td style="text-align:left"><code>d-battle</code>
+      </td>
+      <td style="text-align:left"><code>d-shop</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">DiscordTel (DTS)</td>
+      <td style="text-align:left"><code>&gt;lottery</code> if won</td>
+      <td style="text-align:left"><a href="https://discordtel.austinhuang.me/en/latest/Payment/">Renewing your DiscordTel service</a>, <code>&gt;message</code> as
+        well as <code>&gt;lottery</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Elite Looter (ELT)</td>
+      <td style="text-align:left"><code>;open</code>ing crates gained by chatting, also <code>;games</code>
+      </td>
+      <td style="text-align:left"><code>;shop</code>ing upgrades as well as playing <code>;games</code> to
+        get more crates</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">KekBot (KEK)</td>
+      <td style="text-align:left"><code>$lottery</code> if won, also <code>$game</code>
+      </td>
+      <td style="text-align:left"><code>$shop</code>ing profile card decorations as well as<code>$lottery</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Gami (GBC)</td>
+      <td style="text-align:left"><code>-beg</code>, <code>-steal</code>, <code>-work</code>
+      </td>
+      <td style="text-align:left"><code>-gamble</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Lootcord (LCN)</td>
+      <td style="text-align:left"><code>t-trivia</code>, <code>t-scramble</code>, <code>t-gamble</code>as
+        well as by<code>t-sell</code> items/boxes and<code>t-use</code> items to
+        loot other users, as well as <a href="https://github.com/blobfysh/Lootcord/wiki/Clans">depositing in a clan to earn interest</a>,
+        see <a href="https://lootcord.com/faq">FAQ</a>
+      </td>
+      <td style="text-align:left"><code>t-shop</code>, <code>t-bm</code>, <code>t-trade</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Murder Mystery Bot (MMB)</td>
+      <td style="text-align:left">Typing <code>mm!globalgames</code> daily</td>
+      <td style="text-align:left"><code>mm!globalgames</code> =&gt; Shop</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Nova (SPN)</td>
+      <td style="text-align:left"><code>n!work</code>, as well as taking chances in <code>n!crime</code> and <code>n!rob</code>
+      </td>
+      <td style="text-align:left"><code>n!shop</code> for backgrounds</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Pinocchio (PIC)</td>
+      <td style="text-align:left">Chat rewards, as well as coin drops if enabled</td>
+      <td style="text-align:left"><code>=waifu</code> (Buy discounted ones through <code>=rr</code>) as well
+        as <code>=paidroles</code> if set</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Pollux (RBN)</td>
+      <td style="text-align:left"><code>+betflip</code>, <code>+blackjack</code>, <code>+slots</code>
+      </td>
+      <td style="text-align:left"><code>+shop</code>ing crafting materials and profile decorations</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TheelUtil (TUT)</td>
+      <td style="text-align:left">Quests, <code>!joinjob</code>
+      </td>
+      <td style="text-align:left"><code>!shop</code> for upgrades</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">~ (TTC)</td>
+      <td style="text-align:left">Quests</td>
+      <td style="text-align:left"><code>!teamshop</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">~ (TUP)</td>
+      <td style="text-align:left"><code>!prestige</code>
+      </td>
+      <td style="text-align:left"><code>!prestigeshop</code>
+      </td>
+    </tr>
+  </tbody>
+</table>## Credits \(aka. "How can I support Discoin?"\)
 
 Discoin is a cooperative project, combining efforts of many developers from diverse backgrounds across the globe.
 
 * Discoin v3 is written and hosted by [Jonah Snider](https://jonah.pw) \(Dice\). Subdomain provided by [Zero Width Shortener](https://zws.im). Consider supporting him on [Patreon](https://www.patreon.com/pizzafox) or [Open Collective](https://opencollective.com/zws) to help paying for server cost!
 * The concept, math, and non-technical documentation of Discoin is developed by [Austin Huang](https://austinhuang.me) \(DiscordTel\), with help from [Mitchell Rademaker](https://github.com/mitchell3514) \(DiscordTel\).
-* [Ari Gami](https://github.com/dr-ari-gami) \(Gami\), [DeveloperAnonymous](https://github.com/DeveloperAnonymous) \(DueUtil 3.0\), [Godson](https://github.com/Godson777) \(Kekbot\) and [Theelgirl](https://github.com/Theelgirl) \('s DueUtil\) contributed to the [libraries](developers/guide.md#libraries).
 * Currency graphics \(except Discoin logo\) created by [Lucas Flicky](http://lucasflicky.com/) \(Pollux\). Discoin logo created by ImRock \([Welcomer](https://welcomer.gg)\).
+* [Ari Gami](https://github.com/dr-ari-gami) \(Gami\), [DeveloperAnonymous](https://github.com/DeveloperAnonymous) \(BattleBanana\), [Godson](https://github.com/Godson777) \(Kekbot\) and [Theelgirl](https://github.com/Theelgirl) \(TheelUtil\) contributed to the [libraries](developers/guide.md#libraries).
 * [Discoin is open source.](https://github.com/discoin/api-v3) If you cannot contribute financially, consider contributing your time reviewing the code!
 * And of course, you can easily support Discoin by spreading the word to the world! Convince the developers of your favourite bot\(s\) to implement Discoin by showing this guide to them.
 
