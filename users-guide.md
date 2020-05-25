@@ -108,6 +108,13 @@ Here's a table on the earning and spending mechanisms of each bot.
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">~ (CRD)</td>
+      <td style="text-align:left">For now unobtainable, besides from Discoin.
+      </td>
+      <td style="text-align:left"><code>d-shop</code>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">DiscordTel (DTS)</td>
       <td style="text-align:left"><code>&gt;lottery</code> if won</td>
       <td style="text-align:left"><a href="https://discordtel.austinhuang.me/en/latest/Payment/">Renewing your DiscordTel service</a>, <code>&gt;message</code> as
