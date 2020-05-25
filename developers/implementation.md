@@ -1,8 +1,8 @@
 ---
-description: Migration guide from MacDue's v2 to PizzaFox's v3.
+description: Implementation Guide of Discoin API v3.
 ---
 
-# Rewrite Migration Guide
+# Implementation Guide
 
 This page describes key API methods used to initiate transactions within the new API \(Since [the auto-generated documentation](https://discoin.zws.im/docs) has several errors\). You're welcomed to test everything out yourself.
 
