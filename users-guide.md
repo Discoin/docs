@@ -118,7 +118,7 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
       </td>
       <td style="text-align:left"><code>t-convert &lt;Amount&gt; &lt;Currency&gt;</code>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Send/Receive limited to 1 million LCN per day</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="https://top.gg/bot/319204121393496064">Murder Mystery Bot#7898</a>
