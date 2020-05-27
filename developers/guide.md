@@ -35,9 +35,9 @@ A central API is used so that each participating bot can send and receive reques
 Let's say a user wants to exchange A bot currency to B bot currency.
 
 1. The user requests exchanging on A bot
-2. In the API, A bot [sends a request](migration.md#create-new-transaction) indicates that a transaction has been started.
+2. In the API, A bot [sends a request](implementation.md#create-new-transaction) indicates that a transaction has been started.
 3. API converts the currency and creates a transaction waiting for B bot to pick up.
-4. B bot [picks the transaction up](migration.md#get-transactions), [marks it](migration.md#process-transactions), and finishes the transaction.
+4. B bot [picks the transaction up](implementation.md#get-transactions), [marks it](implementation.md#process-transactions), and finishes the transaction.
 5. The user is notified by B bot indicates that the transaction has been finished.
 
 So you need 2 parts: A command to initiate a transaction, and a module \(cron job\) to process incoming transactions. Of course, should you want to create a command to show real time exchange rates, [that's no problem.](https://discoin.zws.im/docs/#/currencies/getManyBase) We also have libraries to assist you...

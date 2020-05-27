@@ -7,5 +7,5 @@
 ## Developers
 
 * [Guide](developers/guide.md)
-* [Rewrite Migration Guide](developers/migration.md)
+* [Implementation](developers/implementation.md)
 

@@ -33,25 +33,140 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
 
 * `<Currency>` means 3-letter currency codes listed [here](https://dash.discoin.zws.im/#/currencies). Exchange rates are listed there too.
 
-| Bot Name | Command | Note |
-| :--- | :--- | :--- |
-| [BattleBanana\#0764](https://dueutil.xyz) | `!exchange <Amount> <Currency>` | Max 500k BBT per transaction |
-| [ChaosRPG\#3409](https://top.gg/bot/603974948335124491) | `?convert <Amount> <CURRENCY>` | Rates: `?rates`. Must create account:`?start` |
-| [Dice\#6134](https://dice.js.org) | `$$convert-oats <Amount> <Currency>` | Rates: `$$discoin-rates` |
-| [Digimon Universe\#9783](https://top.gg/bot/617159282668077066) | `d-exchange <Currency> <Amount>` |  |
-| [DiscordTel\#6675](https://discordtel.austinhuang.me) | `>convert <Amount> <Currency>` |  |
-| [DueUtil 3.0\#0764](https://dueutil.xyz) | `d!exchange <Amount> <Currency>` | Max 500k DUC per transaction |
-| [Elite Looter\#8634](http://sjustein.com/html/elitelooter.html) | `;exchange <Amount> <Currency>` | Info: `;discoin` |
-| [Gami\#7891](https://gami.app) | `-transfer <Amount> <Currency>` | Rates: `-transfer rates` |
-| [KekBot\#2918](https://discordbots.org/bot/213151748855037953) | `$shop` then react 3 |  |
-| [Lootcord\#6294](https://lootcord.com) | `t-convert <Amount> <Currency>` |  |
-| [Murder Mystery Bot\#7898](https://top.gg/bot/319204121393496064) | `mm!convert <Currency> <Amount>` | Must create account:`mm!globalgames` |
-| [Nova\#2243](https://top.gg/bot/460952742672990217) | _coming soon_ |  |
-| [Pinocchio\#5540](https://pinocchiobot.xyz/) | `=exchange <Amount> <Currency>` | Info: `=discoin` |
-| [Pollux\#9069](http://pollux.fun) | `+exchange <Amount> <Currency>` | Has outbound tax |
-| [TheelUtil\#6258](https://dueutil.org) | `!exchange <Amount> <Currency> <TUT/TTC/TUP>` | Send/Receive limited to 10 transactions per 24h, sending limit exists |
-
-## Can I get/spend Discoins?
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Bot Name</th>
+      <th style="text-align:left">Command</th>
+      <th style="text-align:left">Note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><a href="https://dueutil.xyz">BattleBanana#0764</a>
+      </td>
+      <td style="text-align:left"><code>!exchange &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left">Max 500k BBT per transaction</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://top.gg/bot/603974948335124491">ChaosRPG#3409</a>
+      </td>
+      <td style="text-align:left"><code>?convert &lt;Amount&gt; &lt;CURRENCY&gt;</code>
+      </td>
+      <td style="text-align:left">Rates: <code>?rates</code>.
+        <br />Must create account:<code>?start</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://dice.js.org">Dice#6134</a>
+      </td>
+      <td style="text-align:left"><code>$$convert-oats &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left">Rates: <code>$$discoin-rates</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://top.gg/bot/617159282668077066">Digimon Universe#9783</a>
+      </td>
+      <td style="text-align:left">
+        <p>BIT:<code>d-exchange &lt;Currency&gt; &lt;Amount&gt;</code>
+        </p>
+        <p>CRD: <code>d-exchangecrd &lt;Currency&gt; &lt;Amount&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">Command without argument for rates</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://discordtel.austinhuang.me">DiscordTel#6675</a>
+      </td>
+      <td style="text-align:left"><code>&gt;convert &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left">Command without argument for rates</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://dueutil.xyz">DueUtil 3.0#0764</a>
+      </td>
+      <td style="text-align:left"><code>d!exchange &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left">Max 500k DUC per transaction</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="http://sjustein.com/html/elitelooter.html">Elite Looter#8634</a>
+      </td>
+      <td style="text-align:left"><code>;exchange &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left">Info: <code>;discoin</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://gami.app">Gami#7891</a>
+      </td>
+      <td style="text-align:left"><code>-transfer &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left">Rates: <code>-transfer rates</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://discordbots.org/bot/213151748855037953">KekBot#2918</a>
+      </td>
+      <td style="text-align:left"><code>$shop</code> then react 3</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://lootcord.com">Lootcord#6294</a>
+      </td>
+      <td style="text-align:left"><code>t-convert &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://top.gg/bot/319204121393496064">Murder Mystery Bot#7898</a>
+      </td>
+      <td style="text-align:left"><code>mm!convert &lt;Currency&gt; &lt;Amount&gt;</code>
+      </td>
+      <td style="text-align:left">Must create account:<code>mm!globalgames</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://top.gg/bot/460952742672990217">Nova#2243</a>
+      </td>
+      <td style="text-align:left"><code>n!convert &lt;Currency&gt; &lt;Amount&gt;</code>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://pinocchiobot.xyz/">Pinocchio#5540</a>
+      </td>
+      <td style="text-align:left"><code>=exchange &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left">Info: <code>=discoin</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="http://pollux.fun">Pollux#9069</a>
+      </td>
+      <td style="text-align:left"><code>+exchange &lt;Amount&gt; &lt;Currency&gt;</code>
+      </td>
+      <td style="text-align:left">Has outbound tax</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://top.gg/bot/648065060559781889">Restaurant#4079</a>
+      </td>
+      <td style="text-align:left"><code>r!dsc exchange &lt;Currency&gt; &lt;Amount&gt;</code>
+      </td>
+      <td style="text-align:left">Rates: <code>r!dsc bots</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://dueutil.org">TheelUtil#6258</a>
+      </td>
+      <td style="text-align:left"><code>!exchange &lt;Amount&gt; &lt;Currency&gt; &lt;TUT/TTC/TUP&gt;</code>
+      </td>
+      <td style="text-align:left">Send/Receive limited to 10 transactions per 24h, sending limit exists</td>
+    </tr>
+  </tbody>
+</table>## Can I get/spend Discoins?
 
 No. Discoin only exists during the transaction process and statistics: As a universal _unit_ for calculating currency, it is only used for calculating exchange rates as well as currency reserves. The real world equivalent example would be [XDR](https://en.wikipedia.org/wiki/Special_drawing_rights).
 
@@ -108,6 +223,12 @@ Here's a table on the earning and spending mechanisms of each bot.
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">~ (CRD)</td>
+      <td style="text-align:left">Not obtainable besides Discoin</td>
+      <td style="text-align:left"><code>d-shop</code>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">DiscordTel (DTS)</td>
       <td style="text-align:left"><code>&gt;lottery</code> if won</td>
       <td style="text-align:left"><a href="https://discordtel.austinhuang.me/en/latest/Payment/">Renewing your DiscordTel service</a>, <code>&gt;message</code> as
@@ -118,14 +239,14 @@ Here's a table on the earning and spending mechanisms of each bot.
       <td style="text-align:left">Elite Looter (ELT)</td>
       <td style="text-align:left"><code>;open</code>ing crates gained by chatting, also <code>;games</code>
       </td>
-      <td style="text-align:left"><code>;shop</code>ing upgrades as well as playing <code>;games</code> to
-        get more crates</td>
+      <td style="text-align:left"><code>;shop</code>ing upgrades as well as <code>;games</code> to get more
+        crates</td>
     </tr>
     <tr>
       <td style="text-align:left">KekBot (KEK)</td>
       <td style="text-align:left"><code>$lottery</code> if won, also <code>$game</code>
       </td>
-      <td style="text-align:left"><code>$shop</code>ing profile card decorations as well as<code>$lottery</code>
+      <td style="text-align:left"><code>$shop</code> profile decorations as well as<code>$lottery</code>
       </td>
     </tr>
     <tr>
@@ -154,19 +275,27 @@ Here's a table on the earning and spending mechanisms of each bot.
       <td style="text-align:left">Nova (SPN)</td>
       <td style="text-align:left"><code>n!work</code>, as well as taking chances in <code>n!crime</code> and <code>n!rob</code>
       </td>
-      <td style="text-align:left"><code>n!shop</code> for backgrounds</td>
+      <td style="text-align:left"><code>n!shop</code> for profile decorations</td>
     </tr>
     <tr>
       <td style="text-align:left">Pinocchio (PIC)</td>
       <td style="text-align:left">Chat rewards, as well as coin drops if enabled</td>
-      <td style="text-align:left"><code>=waifu</code> (Buy discounted ones through <code>=rr</code>) as well
-        as <code>=paidroles</code> if set</td>
+      <td style="text-align:left"><code>=waifu</code>, <code>=rr</code>, as well as <code>=paidroles</code> if
+        set</td>
     </tr>
     <tr>
       <td style="text-align:left">Pollux (RBN)</td>
       <td style="text-align:left"><code>+betflip</code>, <code>+blackjack</code>, <code>+slots</code>
       </td>
-      <td style="text-align:left"><code>+shop</code>ing crafting materials and profile decorations</td>
+      <td style="text-align:left"><code>+shop</code> crafting materials and profile decorations</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Restaurant (RBC)</td>
+      <td style="text-align:left"><code>r!work</code>, <code>r!slots</code>, <code>r!trivia</code>, <code>r!beg</code>,
+        as well as receiving 50% from other users&apos; <code>r!dine</code> orders
+        in your restaurant</td>
+      <td style="text-align:left"><code>r!buy</code> and <code>r!dine</code>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">TheelUtil (TUT)</td>
