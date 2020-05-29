@@ -26,7 +26,7 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
 ### Procedure
 
 1. Create a transaction from the origin bot. See the command list below.
-2. Your transaction will be converted at the rates effective at the moment. After a transaction, the rates will [adjust itself](untitled.md).
+2. Your transaction will be converted [at the rates effective at the moment](https://dash.discoin.zws.im/#/currencies). After a transaction, the rates will [adjust itself](untitled.md).
 3. Within 5 minutes, the destination bot will receive your transaction. [Unless...?](users-guide.md#i-did-not-receive-my-payment)
 
 ### Commands List
@@ -166,13 +166,15 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
       <td style="text-align:left">Send/Receive limited to 10 transactions per 24h, sending limit exists</td>
     </tr>
   </tbody>
-</table>## Can I get/spend Discoins?
+</table>
+
+## Can I get/spend Discoins?
 
 No. Discoin only exists during the transaction process and statistics: As a universal _unit_ for calculating currency, it is only used for calculating exchange rates as well as currency reserves. The real world equivalent example would be [XDR](https://en.wikipedia.org/wiki/Special_drawing_rights).
 
 ## Can I have a transaction record?
 
-[https://dash.discoin.zws.im/](https://dash.discoin.zws.im/)
+[https://dash.discoin.zws.im/\#/transactions](https://dash.discoin.zws.im/#/transactions)
 
 ## I did not receive my payment!
 
@@ -317,7 +319,9 @@ Here's a table on the earning and spending mechanisms of each bot.
       </td>
     </tr>
   </tbody>
-</table>## Credits \(aka. "How can I support Discoin?"\)
+</table>
+
+## Credits \(aka. "How can I support Discoin?"\)
 
 Discoin is a cooperative project, combining efforts of many developers from diverse backgrounds across the globe.
 
