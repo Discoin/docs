@@ -78,7 +78,7 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
       <td style="text-align:left">Command without argument for rates</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://discordtel.austinhuang.me">DiscordTel#6675</a>
+      <td style="text-align:left"><a href="https://dtel.austinhuang.me">DTel#6675</a>
       </td>
       <td style="text-align:left"><code>&gt;convert &lt;Amount&gt; &lt;Currency&gt;</code>
       </td>
@@ -231,9 +231,9 @@ Here's a table on the earning and spending mechanisms of each bot.
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">DiscordTel (DTS)</td>
+      <td style="text-align:left">DTel (DTS)</td>
       <td style="text-align:left"><code>&gt;lottery</code> if won</td>
-      <td style="text-align:left"><a href="https://discordtel.austinhuang.me/en/latest/Payment/">Renewing your DiscordTel service</a>, <code>&gt;message</code> as
+      <td style="text-align:left"><a href="https://dtel.austinhuang.me/en/latest/Payment/">Renewing your DTel service</a>, <code>&gt;message</code> as
         well as <code>&gt;lottery</code>
       </td>
     </tr>
@@ -326,7 +326,7 @@ Here's a table on the earning and spending mechanisms of each bot.
 Discoin is a cooperative project, combining efforts of many developers from diverse backgrounds across the globe.
 
 * Discoin v3 is written and hosted by [Jonah Snider](https://jonah.pw) \(Dice\). Subdomain provided by [Zero Width Shortener](https://zws.im). Consider supporting him on [Patreon](https://www.patreon.com/pizzafox) or [Open Collective](https://opencollective.com/zws) to help paying for server cost!
-* The concept, math, and non-technical documentation of Discoin is developed by [Austin Huang](https://austinhuang.me) \(DiscordTel\), with help from [Mitchell Rademaker](https://github.com/mitchell3514) \(DiscordTel\).
+* The concept, math, and non-technical documentation of Discoin is developed by [Austin Huang](https://austinhuang.me) \(DTel\), with help from [Mitchell Rademaker](https://github.com/mitchell3514) \(DTel\).
 * Currency graphics \(except Discoin logo\) created by [Lucas Flicky](http://lucasflicky.com/) \(Pollux\). Discoin logo created by ImRock \([Welcomer](https://welcomer.gg)\).
 * [Ari Gami](https://github.com/dr-ari-gami) \(Gami\), [DeveloperAnonymous](https://github.com/DeveloperAnonymous) \(BattleBanana\), [Godson](https://github.com/Godson777) \(Kekbot\) and [Theelgirl](https://github.com/Theelgirl) \(TheelUtil\) contributed to the [libraries](developers/guide.md#libraries).
 * [Discoin is open source.](https://github.com/discoin/api-v3) If you cannot contribute financially, consider contributing your time reviewing the code!
