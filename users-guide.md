@@ -43,7 +43,7 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="https://dueutil.xyz">BattleBanana#0764</a>
+      <td style="text-align:left"><a href="https://battlebanana.xyz">BattleBanana#0764</a>
       </td>
       <td style="text-align:left"><code>!exchange &lt;Amount&gt; &lt;Currency&gt;</code>
       </td>
