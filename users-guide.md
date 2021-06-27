@@ -67,17 +67,6 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://top.gg/bot/617159282668077066">Digimon Universe#9783</a>
-      </td>
-      <td style="text-align:left">
-        <p>BIT:<code>d-exchange &lt;Currency&gt; &lt;Amount&gt;</code>
-        </p>
-        <p>CRD: <code>d-exchangecrd &lt;Currency&gt; &lt;Amount&gt;</code>
-        </p>
-      </td>
-      <td style="text-align:left">Command without argument for rates</td>
-    </tr>
-    <tr>
       <td style="text-align:left"><a href="https://dtel.austinhuang.me">DTel#6675</a>
       </td>
       <td style="text-align:left"><code>&gt;convert &lt;Amount&gt; &lt;Currency&gt;</code>
@@ -85,26 +74,11 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
       <td style="text-align:left">Command without argument for rates</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://dueutil.xyz">DueUtil 3.0#0764</a>
-      </td>
-      <td style="text-align:left"><code>d!exchange &lt;Amount&gt; &lt;Currency&gt;</code>
-      </td>
-      <td style="text-align:left">Max 500k DUC per transaction</td>
-    </tr>
-    <tr>
       <td style="text-align:left"><a href="http://sjustein.com/html/elitelooter.html">Elite Looter#8634</a>
       </td>
       <td style="text-align:left"><code>;exchange &lt;Amount&gt; &lt;Currency&gt;</code>
       </td>
       <td style="text-align:left">Info: <code>;discoin</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="https://gami.app">Gami#7891</a>
-      </td>
-      <td style="text-align:left"><code>-transfer &lt;Amount&gt; &lt;Currency&gt;</code>
-      </td>
-      <td style="text-align:left">Rates: <code>-transfer rates</code>
       </td>
     </tr>
     <tr>
@@ -142,13 +116,6 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
       </td>
       <td style="text-align:left">Info: <code>=discoin</code>
       </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="http://pollux.fun">Pollux#9069</a>
-      </td>
-      <td style="text-align:left"><code>+exchange &lt;Amount&gt; &lt;Currency&gt;</code>
-      </td>
-      <td style="text-align:left">Has outbound tax</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="https://top.gg/bot/648065060559781889">Restaurant#4079</a>
@@ -218,19 +185,6 @@ Here's a table on the earning and spending mechanisms of each bot.
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Digimon Universe (BIT)</td>
-      <td style="text-align:left"><code>d-battle</code>
-      </td>
-      <td style="text-align:left"><code>d-shop</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">~ (CRD)</td>
-      <td style="text-align:left">Not obtainable besides Discoin</td>
-      <td style="text-align:left"><code>d-shop</code>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">DTel (DTS)</td>
       <td style="text-align:left"><code>&gt;lottery</code> if won</td>
       <td style="text-align:left"><a href="https://dtel.austinhuang.me/en/latest/Payment/">Renewing your DTel service</a>, <code>&gt;message</code> as
@@ -286,12 +240,6 @@ Here's a table on the earning and spending mechanisms of each bot.
         set</td>
     </tr>
     <tr>
-      <td style="text-align:left">Pollux (RBN)</td>
-      <td style="text-align:left"><code>+betflip</code>, <code>+blackjack</code>, <code>+slots</code>
-      </td>
-      <td style="text-align:left"><code>+shop</code> crafting materials and profile decorations</td>
-    </tr>
-    <tr>
       <td style="text-align:left">Restaurant (RBC)</td>
       <td style="text-align:left"><code>r!work</code>, <code>r!slots</code>, <code>r!trivia</code>, <code>r!beg</code>,
         as well as receiving 50% from other users&apos; <code>r!dine</code> orders
@@ -328,7 +276,7 @@ Discoin is a cooperative project, combining efforts of many developers from dive
 * Discoin v3 is written and hosted by [Jonah Snider](https://jonah.pw) \(Dice\). Subdomain provided by [Zero Width Shortener](https://zws.im). Consider supporting him on [Patreon](https://www.patreon.com/pizzafox) or [Open Collective](https://opencollective.com/zws) to help paying for server cost!
 * The concept, math, and non-technical documentation of Discoin is developed by [Austin Huang](https://austinhuang.me) \(DTel\), with help from [Mitchell Rademaker](https://github.com/mitchell3514) \(DTel\).
 * Currency graphics \(except Discoin logo\) created by [Lucas Flicky](http://lucasflicky.com/) \(Pollux\). Discoin logo created by ImRock \([Welcomer](https://welcomer.gg)\).
-* [Ari Gami](https://github.com/dr-ari-gami) \(Gami\), [DeveloperAnonymous](https://github.com/DeveloperAnonymous) \(BattleBanana\), [Godson](https://github.com/Godson777) \(Kekbot\) and [Theelgirl](https://github.com/Theelgirl) \(TheelUtil\) contributed to the [libraries](developers/guide.md#libraries).
+* [Ari Gami](https://github.com/dr-ari-gami), [DeveloperAnonymous](https://github.com/DeveloperAnonymous) \(BattleBanana\), [Godson](https://github.com/Godson777) \(Kekbot\) and [Theelgirl](https://github.com/Theelgirl) \(TheelUtil\) contributed to the [libraries](developers/guide.md#libraries).
 * [Discoin is open source.](https://github.com/discoin/api-v3) If you cannot contribute financially, consider contributing your time reviewing the code!
 * And of course, you can easily support Discoin by spreading the word to the world! Convince the developers of your favourite bot\(s\) to implement Discoin by showing this guide to them.
 
