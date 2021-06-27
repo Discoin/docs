@@ -1,5 +1,5 @@
 ---
-description: Migration guide from MacDue's v2 to PizzaFox's v3.
+description: An overview of the API
 ---
 
 # Implementation
@@ -169,7 +169,7 @@ Shows updated transaction details.
 	"payout": 100.1,
 	"from": {
 		"id": "DTS",
-		"name": "Discordtel Credits"
+		"name": "DTel Credits"
 	},
 	"to": {
 		"id": "OAT",

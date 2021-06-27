@@ -26,7 +26,7 @@ Discoin is meant to supplement user income on each bot. While certain actions, l
 ### Procedure
 
 1. Create a transaction from the origin bot. See the command list below.
-2. Your transaction will be converted [at the rates effective at the moment](https://dash.discoin.zws.im/#/currencies). After a transaction, the rates will [adjust itself](untitled.md).
+2. Your transaction will be converted [at the rates effective at the moment](https://dash.discoin.zws.im/#/currencies). After a transaction, the rates will [adjust itself](reserve.md).
 3. Within 5 minutes, the destination bot will receive your transaction. [Unless...?](users-guide.md#i-did-not-receive-my-payment)
 
 ### Commands List
