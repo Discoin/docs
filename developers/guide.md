@@ -22,7 +22,7 @@ And a BONUS: **Educating** - By giving a taste of investment with gains and loss
 We accept **verified** bots with more than **250** servers.
 {% endhint %}
 
-1. Apply for an API key [here](https://austinhuang.typeform.com/to/yABBz5).
+1. Apply for an API key by asking us [here](https://discord.gg/k485bSu).
 2. Once approved, we'll discuss with you and determine an exchange rate.
 3. Implement Discoin into your bot. 
 
